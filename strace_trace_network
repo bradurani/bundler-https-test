@@ -1,0 +1,207 @@
+8060  +++ exited with 0 +++
+8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8060, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8062  +++ exited with 0 +++
+8061  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8062, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8065  +++ exited with 1 +++
+8066  +++ exited with 0 +++
+8064  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8065, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+8064  +++ exited with 0 +++
+8063  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8064, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8067  +++ exited with 1 +++
+8063  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8067, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+8063  +++ exited with 0 +++
+8061  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8063, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8061  +++ exited with 0 +++
+8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8061, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8068  +++ exited with 0 +++
+8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8068, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8070  +++ exited with 0 +++
+8069  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8070, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8074  +++ exited with 0 +++
+8073  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8074, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8073  +++ exited with 0 +++
+8072  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8073, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8072  +++ exited with 0 +++
+8071  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8072, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8071  +++ exited with 0 +++
+8069  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8071, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8069  +++ exited with 0 +++
+8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8069, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8076  +++ exited with 0 +++
+8075  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8076, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8077  +++ exited with 0 +++
+8075  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8077, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8075  +++ exited with 0 +++
+8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8075, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8078  +++ exited with 0 +++
+8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8078, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8059  sendfile(10, 9, NULL, 14295537)   = 14295537
+8059  socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 9
+8059  connect(9, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+8059  socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 9
+8059  connect(9, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+8059  socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 9
+8059  connect(9, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+8059  sendmmsg(9, {{{msg_name(0)=NULL, msg_iov(1)=[{"[4\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=MSG_DONTROUTE|MSG_TRUNC|MSG_DONTWAIT|MSG_EOR|MSG_WAITALL|MSG_FIN|MSG_RST|MSG_MORE|MSG_FASTOPEN|0x5da0010}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\256T\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=MSG_OOB|MSG_DONTROUTE|MSG_CTRUNC|0x10}, 36}}, 2, MSG_NOSIGNAL) = 2
+8059  recvfrom(9, "[4\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+8059  recvfrom(9, "\256T\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+8059  socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 9
+8059  connect(9, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16) = 0
+8059  getsockname(9, {sa_family=AF_INET, sin_port=htons(55732), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+8164  +++ exited with 0 +++
+8059  setsockopt(9, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+8059  setsockopt(9, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+8172  +++ exited with 0 +++
+8179  +++ exited with 0 +++
+8184  +++ exited with 0 +++
+8182  +++ exited with 0 +++
+8189  +++ exited with 0 +++
+8181  +++ exited with 0 +++
+8186  +++ exited with 0 +++
+8183  +++ exited with 0 +++
+8175  +++ exited with 0 +++
+8171  +++ exited with 0 +++
+8177  +++ exited with 0 +++
+8170  +++ exited with 0 +++
+8167  +++ exited with 0 +++
+8165  +++ exited with 0 +++
+8173  +++ exited with 0 +++
+8176  +++ exited with 0 +++
+8180  +++ exited with 0 +++
+8187  +++ exited with 0 +++
+8174  +++ exited with 0 +++
+8185  +++ exited with 0 +++
+8188  +++ exited with 0 +++
+8169  +++ exited with 0 +++
+8168  +++ exited with 0 +++
+8166  +++ exited with 0 +++
+8178  +++ exited with 0 +++
+8213  sendfile(13, 10, NULL, 1220)      = 1220
+8192  sendfile(14, 11, NULL, 504)       = 504
+8190  sendfile(15, 12, NULL, 4638)      = 4638
+8213  socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 10
+8213  connect(10, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+8213  sendmmsg(10, {{{msg_name(0)=NULL, msg_iov(1)=[{"\241\23\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\247\21\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+8192  socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 11
+8192  connect(11, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+8192  sendmmsg(11, {{{msg_name(0)=NULL, msg_iov(1)=[{"\236s\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\314\316\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+8190  socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 12
+8190  connect(12, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+8190  sendmmsg(12, {{{msg_name(0)=NULL, msg_iov(1)=[{",\v\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\261\373\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+8213  recvfrom(10, "\241\23\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+8190  recvfrom(12, "\261\373\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+8190  recvfrom(12, ",\v\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+8190  socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 12
+8190  connect(12, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+8192  recvfrom(11, "\314\316\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+8213  recvfrom(10, "\247\21\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+8213  socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 10
+8213  connect(10, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+8192  recvfrom(11, "\236s\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+8192  socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 11
+8192  connect(11, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+8190  <... connect resumed> )           = 0
+8190  getsockname(12,  <unfinished ...>
+8217  +++ exited with 0 +++
+8190  <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(55734), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+8190  setsockopt(12, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+8213  <... connect resumed> )           = 0
+8213  getsockname(10,  <unfinished ...>
+8215  +++ exited with 0 +++
+8213  <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(55736), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+8213  setsockopt(10, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+8192  <... connect resumed> )           = 0
+8192  getsockname(11,  <unfinished ...>
+8216  +++ exited with 0 +++
+8192  <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(55738), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+8192  setsockopt(11, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+8190  setsockopt(12, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+8213  setsockopt(10, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+8192  setsockopt(11, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+8205  +++ exited with 0 +++
+8200  +++ exited with 0 +++
+8195  +++ exited with 0 +++
+8202  +++ exited with 0 +++
+8194  +++ exited with 0 +++
+8203  +++ exited with 0 +++
+8197  +++ exited with 0 +++
+8204  +++ exited with 0 +++
+8192  +++ exited with 0 +++
+8206  +++ exited with 0 +++
+8191  +++ exited with 0 +++
+8207  +++ exited with 0 +++
+8212  +++ exited with 0 +++
+8210  +++ exited with 0 +++
+8214  +++ exited with 0 +++
+8211  +++ exited with 0 +++
+8198  +++ exited with 0 +++
+8213  +++ exited with 0 +++
+8201  +++ exited with 0 +++
+8193  +++ exited with 0 +++
+8190  +++ exited with 0 +++
+8208  +++ exited with 0 +++
+8199  +++ exited with 0 +++
+8196  +++ exited with 0 +++
+8209  +++ exited with 0 +++
+8228  +++ exited with 0 +++
+8224  +++ exited with 0 +++
+8233  +++ exited with 0 +++
+8234  +++ exited with 0 +++
+8235  +++ exited with 0 +++
+8232  +++ exited with 0 +++
+8231  +++ exited with 0 +++
+8237  +++ exited with 0 +++
+8239  +++ exited with 0 +++
+8221  +++ exited with 0 +++
+8220  +++ exited with 0 +++
+8219  +++ exited with 0 +++
+8238  +++ exited with 0 +++
+8230  +++ exited with 0 +++
+8218  +++ exited with 0 +++
+8225  +++ exited with 0 +++
+8226  +++ exited with 0 +++
+8229  +++ exited with 0 +++
+8223  +++ exited with 0 +++
+8240  +++ exited with 0 +++
+8222  +++ exited with 0 +++
+8242  +++ exited with 0 +++
+8236  +++ exited with 0 +++
+8227  +++ exited with 0 +++
+8241  +++ exited with 0 +++
+8243  +++ exited with 0 +++
+8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8243, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8247  +++ exited with 0 +++
+8246  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8247, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8246  +++ exited with 0 +++
+8245  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8246, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8245  +++ exited with 0 +++
+8244  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8245, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8244  +++ exited with 0 +++
+8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8244, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8259  +++ exited with 0 +++
+8249  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8259, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8294  +++ exited with 0 +++
+8249  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8294, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8251  +++ exited with 0 +++
+8250  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8251, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8250  +++ exited with 0 +++
+8249  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8250, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8319  +++ exited with 0 +++
+8249  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8319, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8249  +++ exited with 0 +++
+8248  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8249, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8248  +++ exited with 0 +++
+8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8248, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8323  +++ exited with 0 +++
+8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8323, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8340  +++ exited with 0 +++
+8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8340, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8344  +++ exited with 0 +++
+8343  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8344, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8343  +++ exited with 0 +++
+8342  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8343, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8342  +++ exited with 0 +++
+8341  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8342, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+8341  +++ exited with 0 +++
+8079  +++ exited with 0 +++
+8059  +++ exited with 0 +++
