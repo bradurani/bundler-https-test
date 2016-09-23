@@ -1,207 +1,1973 @@
-8060  +++ exited with 0 +++
-8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8060, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8062  +++ exited with 0 +++
-8061  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8062, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8065  +++ exited with 1 +++
-8066  +++ exited with 0 +++
-8064  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8065, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
-8064  +++ exited with 0 +++
-8063  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8064, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8067  +++ exited with 1 +++
-8063  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8067, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
-8063  +++ exited with 0 +++
-8061  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8063, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8061  +++ exited with 0 +++
-8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8061, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8068  +++ exited with 0 +++
-8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8068, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8070  +++ exited with 0 +++
-8069  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8070, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8074  +++ exited with 0 +++
-8073  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8074, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8073  +++ exited with 0 +++
-8072  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8073, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8072  +++ exited with 0 +++
-8071  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8072, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8071  +++ exited with 0 +++
-8069  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8071, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8069  +++ exited with 0 +++
-8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8069, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8076  +++ exited with 0 +++
-8075  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8076, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8077  +++ exited with 0 +++
-8075  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8077, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8075  +++ exited with 0 +++
-8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8075, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8078  +++ exited with 0 +++
-8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8078, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8059  sendfile(10, 9, NULL, 14295537)   = 14295537
-8059  socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 9
-8059  connect(9, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
-8059  socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 9
-8059  connect(9, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
-8059  socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 9
-8059  connect(9, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
-8059  sendmmsg(9, {{{msg_name(0)=NULL, msg_iov(1)=[{"[4\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=MSG_DONTROUTE|MSG_TRUNC|MSG_DONTWAIT|MSG_EOR|MSG_WAITALL|MSG_FIN|MSG_RST|MSG_MORE|MSG_FASTOPEN|0x5da0010}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\256T\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=MSG_OOB|MSG_DONTROUTE|MSG_CTRUNC|0x10}, 36}}, 2, MSG_NOSIGNAL) = 2
-8059  recvfrom(9, "[4\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
-8059  recvfrom(9, "\256T\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
-8059  socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 9
-8059  connect(9, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16) = 0
-8059  getsockname(9, {sa_family=AF_INET, sin_port=htons(55732), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
-8164  +++ exited with 0 +++
-8059  setsockopt(9, SOL_TCP, TCP_NODELAY, [1], 4) = 0
-8059  setsockopt(9, SOL_TCP, TCP_NODELAY, [1], 4) = 0
-8172  +++ exited with 0 +++
-8179  +++ exited with 0 +++
-8184  +++ exited with 0 +++
-8182  +++ exited with 0 +++
-8189  +++ exited with 0 +++
-8181  +++ exited with 0 +++
-8186  +++ exited with 0 +++
-8183  +++ exited with 0 +++
-8175  +++ exited with 0 +++
-8171  +++ exited with 0 +++
-8177  +++ exited with 0 +++
-8170  +++ exited with 0 +++
-8167  +++ exited with 0 +++
-8165  +++ exited with 0 +++
-8173  +++ exited with 0 +++
-8176  +++ exited with 0 +++
-8180  +++ exited with 0 +++
-8187  +++ exited with 0 +++
-8174  +++ exited with 0 +++
-8185  +++ exited with 0 +++
-8188  +++ exited with 0 +++
-8169  +++ exited with 0 +++
-8168  +++ exited with 0 +++
-8166  +++ exited with 0 +++
-8178  +++ exited with 0 +++
-8213  sendfile(13, 10, NULL, 1220)      = 1220
-8192  sendfile(14, 11, NULL, 504)       = 504
-8190  sendfile(15, 12, NULL, 4638)      = 4638
-8213  socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 10
-8213  connect(10, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
-8213  sendmmsg(10, {{{msg_name(0)=NULL, msg_iov(1)=[{"\241\23\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\247\21\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
-8192  socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 11
-8192  connect(11, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
-8192  sendmmsg(11, {{{msg_name(0)=NULL, msg_iov(1)=[{"\236s\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\314\316\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
-8190  socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 12
-8190  connect(12, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
-8190  sendmmsg(12, {{{msg_name(0)=NULL, msg_iov(1)=[{",\v\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\261\373\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
-8213  recvfrom(10, "\241\23\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
-8190  recvfrom(12, "\261\373\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
-8190  recvfrom(12, ",\v\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
-8190  socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 12
-8190  connect(12, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
-8192  recvfrom(11, "\314\316\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
-8213  recvfrom(10, "\247\21\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
-8213  socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 10
-8213  connect(10, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
-8192  recvfrom(11, "\236s\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
-8192  socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 11
-8192  connect(11, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
-8190  <... connect resumed> )           = 0
-8190  getsockname(12,  <unfinished ...>
-8217  +++ exited with 0 +++
-8190  <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(55734), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
-8190  setsockopt(12, SOL_TCP, TCP_NODELAY, [1], 4) = 0
-8213  <... connect resumed> )           = 0
-8213  getsockname(10,  <unfinished ...>
-8215  +++ exited with 0 +++
-8213  <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(55736), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
-8213  setsockopt(10, SOL_TCP, TCP_NODELAY, [1], 4) = 0
-8192  <... connect resumed> )           = 0
-8192  getsockname(11,  <unfinished ...>
-8216  +++ exited with 0 +++
-8192  <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(55738), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
-8192  setsockopt(11, SOL_TCP, TCP_NODELAY, [1], 4) = 0
-8190  setsockopt(12, SOL_TCP, TCP_NODELAY, [1], 4) = 0
-8213  setsockopt(10, SOL_TCP, TCP_NODELAY, [1], 4) = 0
-8192  setsockopt(11, SOL_TCP, TCP_NODELAY, [1], 4) = 0
-8205  +++ exited with 0 +++
-8200  +++ exited with 0 +++
-8195  +++ exited with 0 +++
-8202  +++ exited with 0 +++
-8194  +++ exited with 0 +++
-8203  +++ exited with 0 +++
-8197  +++ exited with 0 +++
-8204  +++ exited with 0 +++
-8192  +++ exited with 0 +++
-8206  +++ exited with 0 +++
-8191  +++ exited with 0 +++
-8207  +++ exited with 0 +++
-8212  +++ exited with 0 +++
-8210  +++ exited with 0 +++
-8214  +++ exited with 0 +++
-8211  +++ exited with 0 +++
-8198  +++ exited with 0 +++
-8213  +++ exited with 0 +++
-8201  +++ exited with 0 +++
-8193  +++ exited with 0 +++
-8190  +++ exited with 0 +++
-8208  +++ exited with 0 +++
-8199  +++ exited with 0 +++
-8196  +++ exited with 0 +++
-8209  +++ exited with 0 +++
-8228  +++ exited with 0 +++
-8224  +++ exited with 0 +++
-8233  +++ exited with 0 +++
-8234  +++ exited with 0 +++
-8235  +++ exited with 0 +++
-8232  +++ exited with 0 +++
-8231  +++ exited with 0 +++
-8237  +++ exited with 0 +++
-8239  +++ exited with 0 +++
-8221  +++ exited with 0 +++
-8220  +++ exited with 0 +++
-8219  +++ exited with 0 +++
-8238  +++ exited with 0 +++
-8230  +++ exited with 0 +++
-8218  +++ exited with 0 +++
-8225  +++ exited with 0 +++
-8226  +++ exited with 0 +++
-8229  +++ exited with 0 +++
-8223  +++ exited with 0 +++
-8240  +++ exited with 0 +++
-8222  +++ exited with 0 +++
-8242  +++ exited with 0 +++
-8236  +++ exited with 0 +++
-8227  +++ exited with 0 +++
-8241  +++ exited with 0 +++
-8243  +++ exited with 0 +++
-8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8243, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8247  +++ exited with 0 +++
-8246  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8247, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8246  +++ exited with 0 +++
-8245  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8246, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8245  +++ exited with 0 +++
-8244  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8245, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8244  +++ exited with 0 +++
-8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8244, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8259  +++ exited with 0 +++
-8249  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8259, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8294  +++ exited with 0 +++
-8249  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8294, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8251  +++ exited with 0 +++
-8250  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8251, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8250  +++ exited with 0 +++
-8249  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8250, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8319  +++ exited with 0 +++
-8249  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8319, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8249  +++ exited with 0 +++
-8248  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8249, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8248  +++ exited with 0 +++
-8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8248, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8323  +++ exited with 0 +++
-8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8323, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8340  +++ exited with 0 +++
-8059  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8340, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8344  +++ exited with 0 +++
-8343  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8344, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8343  +++ exited with 0 +++
-8342  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8343, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8342  +++ exited with 0 +++
-8341  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=8342, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-8341  +++ exited with 0 +++
-8079  +++ exited with 0 +++
-8059  +++ exited with 0 +++
+31290 +++ exited with 0 +++
+31289 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31290, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+31292 +++ exited with 0 +++
+31291 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31292, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+31295 +++ exited with 1 +++
+31296 +++ exited with 0 +++
+31294 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31295, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+31294 +++ exited with 0 +++
+31293 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31294, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+31297 +++ exited with 1 +++
+31293 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31297, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+31293 +++ exited with 0 +++
+31291 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31293, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+31291 +++ exited with 0 +++
+31289 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31291, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+31298 +++ exited with 0 +++
+31289 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31298, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+31300 +++ exited with 0 +++
+31299 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31300, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+31304 +++ exited with 0 +++
+31303 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31304, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+31303 +++ exited with 0 +++
+31302 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31303, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+31302 +++ exited with 0 +++
+31301 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31302, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+31301 +++ exited with 0 +++
+31299 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31301, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+31299 +++ exited with 0 +++
+31289 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31299, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+31306 +++ exited with 0 +++
+31305 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31306, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+31307 +++ exited with 0 +++
+31305 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31307, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+31305 +++ exited with 0 +++
+31289 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31305, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+31308 +++ exited with 0 +++
+31289 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=31308, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+31289 sendfile(10, 9, NULL, 14295537)   = 14295537
+31289 socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 9
+31289 connect(9, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+31289 socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 9
+31289 connect(9, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+31289 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 9
+31289 connect(9, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31289 sendmmsg(9, {{{msg_name(0)=NULL, msg_iov(1)=[{"c\321\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=MSG_CTRUNC|MSG_DONTWAIT|MSG_EOR|MSG_WAITALL|MSG_CONFIRM|MSG_RST|MSG_ERRQUEUE|MSG_NOSIGNAL|0x84fe0000}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"G9\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=MSG_OOB|MSG_DONTROUTE|MSG_CTRUNC|MSG_EOR|MSG_WAITALL|MSG_FIN|MSG_CONFIRM|MSG_RST|MSG_ERRQUEUE|MSG_MORE|MSG_WAITFORONE|0x1c920010}, 36}}, 2, MSG_NOSIGNAL) = 2
+31289 recvfrom(9, "c\321\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31289 recvfrom(9, "G9\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31289 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 9
+31289 connect(9, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16) = 0
+31289 getsockname(9,  <unfinished ...>
+31383 +++ exited with 0 +++
+31289 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56546), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31289 setsockopt(9, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31289 setsockopt(9, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31396 sendfile(35, 20, NULL, 1496)      = 1496
+31385 sendfile(36, 11, NULL, 3473 <unfinished ...>
+31390 sendfile(37, 14, NULL, 2084 <unfinished ...>
+31385 <... sendfile resumed> )          = 3473
+31390 <... sendfile resumed> )          = 2084
+31392 sendfile(38, 17, NULL, 1876)      = 1876
+31400 sendfile(35, 24, NULL, 2373)      = 2373
+31398 sendfile(28, 22, NULL, 480)       = 480
+31394 sendfile(40, 18, NULL, 2006)      = 2006
+31404 sendfile(35, 39, NULL, 1593)      = 1593
+31396 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 17
+31396 connect(17, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31396 sendmmsg(17, {{{msg_name(0)=NULL, msg_iov(1)=[{"\225\2\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"%\224\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31392 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 15
+31392 connect(15, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31392 sendmmsg(15, {{{msg_name(0)=NULL, msg_iov(1)=[{"I\303\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"-\24\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31393 sendfile(10, 16, NULL, 3532)      = 3532
+31398 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 19
+31398 connect(19, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31398 sendmmsg(19, {{{msg_name(0)=NULL, msg_iov(1)=[{"\320\246\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"g\331\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31396 recvfrom(17, "\225\2\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31396 recvfrom(17, "%\224\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31392 recvfrom(15, "I\303\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31398 recvfrom(19, "\320\246\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31398 recvfrom(19, "g\331\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31392 recvfrom(15, "-\24\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31390 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 13
+31390 connect(13, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31390 sendmmsg(13, {{{msg_name(0)=NULL, msg_iov(1)=[{"\321g\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"o[\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31385 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 11
+31385 connect(11, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31385 sendmmsg(11, {{{msg_name(0)=NULL, msg_iov(1)=[{"\n*\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"R\336\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31394 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 15
+31394 connect(15, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31394 sendmmsg(15, {{{msg_name(0)=NULL, msg_iov(1)=[{"\356\316\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\22'\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31400 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 17
+31400 connect(17, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31400 sendmmsg(17, {{{msg_name(0)=NULL, msg_iov(1)=[{"\267w\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\216z\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31396 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 10
+31396 connect(10, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31398 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 18
+31398 connect(18, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31392 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 19
+31392 connect(19, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31404 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 12
+31404 connect(12, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31404 sendmmsg(12, {{{msg_name(0)=NULL, msg_iov(1)=[{"\261Y\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"F>\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31393 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 14
+31393 connect(14, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31393 sendmmsg(14, {{{msg_name(0)=NULL, msg_iov(1)=[{")\"\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\315\317\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31396 <... connect resumed> )           = 0
+31409 +++ exited with 0 +++
+31396 getsockname(10, {sa_family=AF_INET, sin_port=htons(56548), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31396 setsockopt(10, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31385 recvfrom(11, "\n*\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31390 recvfrom(13, "o[\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31400 recvfrom(17,  <unfinished ...>
+31394 recvfrom(15,  <unfinished ...>
+31400 <... recvfrom resumed> "\216z\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31394 <... recvfrom resumed> "\356\316\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31385 recvfrom(11, "R\336\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31385 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 11
+31385 connect(11, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31394 recvfrom(15,  <unfinished ...>
+31400 recvfrom(17,  <unfinished ...>
+31394 <... recvfrom resumed> "\22'\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31400 <... recvfrom resumed> "\267w\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31394 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 15
+31390 recvfrom(13, "\321g\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31394 connect(15, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31400 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 13
+31400 connect(13, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31390 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 16
+31390 connect(16, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31392 <... connect resumed> )           = 0
+31410 +++ exited with 0 +++
+31392 getsockname(19, {sa_family=AF_INET, sin_port=htons(56552), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31392 setsockopt(19, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31398 <... connect resumed> )           = 0
+31404 recvfrom(12, "\261Y\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31404 recvfrom(12, "F>\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31404 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 12
+31404 connect(12, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31411 +++ exited with 0 +++
+31398 getsockname(18, {sa_family=AF_INET, sin_port=htons(56550), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31398 setsockopt(18, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31393 recvfrom(14, ")\"\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31393 recvfrom(14, "\315\317\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31393 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 14
+31393 connect(14, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31385 <... connect resumed> )           = 0
+31385 getsockname(11,  <unfinished ...>
+31413 +++ exited with 0 +++
+31385 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56554), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31385 setsockopt(11, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31394 <... connect resumed> )           = 0
+31394 getsockname(15,  <unfinished ...>
+31414 +++ exited with 0 +++
+31394 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56556), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31394 setsockopt(15, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31404 <... connect resumed> )           = 0
+31404 getsockname(12,  <unfinished ...>
+31416 +++ exited with 0 +++
+31404 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56562), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31404 setsockopt(12, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31393 <... connect resumed> )           = 0
+31393 getsockname(14, {sa_family=AF_INET, sin_port=htons(56564), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31417 +++ exited with 0 +++
+31393 setsockopt(14, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31390 <... connect resumed> )           = 0
+31400 <... connect resumed> )           = 0
+31415 +++ exited with 0 +++
+31400 getsockname(13, {sa_family=AF_INET, sin_port=htons(56558), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31412 +++ exited with 0 +++
+31400 setsockopt(13, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31390 getsockname(16, {sa_family=AF_INET, sin_port=htons(56560), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31390 setsockopt(16, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31392 setsockopt(19, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31396 setsockopt(10, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31398 setsockopt(18, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31404 setsockopt(12, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31394 setsockopt(15, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31385 setsockopt(11, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31393 setsockopt(14, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31390 setsockopt(16, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31400 setsockopt(13, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31399 +++ exited with 0 +++
+31404 +++ exited with 0 +++
+31407 +++ exited with 0 +++
+31393 +++ exited with 0 +++
+31392 +++ exited with 0 +++
+31406 +++ exited with 0 +++
+31400 +++ exited with 0 +++
+31398 +++ exited with 0 +++
+31397 +++ exited with 0 +++
+31388 +++ exited with 0 +++
+31401 +++ exited with 0 +++
+31395 +++ exited with 0 +++
+31394 +++ exited with 0 +++
+31408 +++ exited with 0 +++
+31396 +++ exited with 0 +++
+31403 +++ exited with 0 +++
+31405 +++ exited with 0 +++
+31391 +++ exited with 0 +++
+31384 +++ exited with 0 +++
+31389 +++ exited with 0 +++
+31387 +++ exited with 0 +++
+31386 +++ exited with 0 +++
+31385 +++ exited with 0 +++
+31390 +++ exited with 0 +++
+31402 +++ exited with 0 +++
+31431 sendfile(44, 32, NULL, 280)       = 280
+31425 sendfile(48, 26, NULL, 1830)      = 1830
+31429 sendfile(50, 30, NULL, 502)       = 502
+31442 sendfile(59, 43, NULL, 1220)      = 1220
+31418 sendfile(47, 20, NULL, 4095)      = 4095
+31427 sendfile(60, 28, NULL, 6347 <unfinished ...>
+31424 sendfile(49, 25, NULL, 2251 <unfinished ...>
+31427 <... sendfile resumed> )          = 6347
+31424 <... sendfile resumed> )          = 2251
+31437 sendfile(52, 36, NULL, 95)        = 95
+31428 sendfile(51, 29, NULL, 2413)      = 2413
+31432 sendfile(54, 33, NULL, 176)       = 176
+31439 sendfile(57, 40, NULL, 110 <unfinished ...>
+31440 sendfile(58, 41, NULL, 333 <unfinished ...>
+31439 <... sendfile resumed> )          = 110
+31440 <... sendfile resumed> )          = 333
+31422 sendfile(44, 23, NULL, 2267)      = 2267
+31426 sendfile(46, 27, NULL, 706)       = 706
+31435 sendfile(53, 34, NULL, 3517)      = 3517
+31434 sendfile(55, 35, NULL, 58732)     = 58732
+31436 sendfile(56, 39, NULL, 480 <unfinished ...>
+31433 sendfile(49, 37, NULL, 849 <unfinished ...>
+31436 <... sendfile resumed> )          = 480
+31433 <... sendfile resumed> )          = 849
+31441 sendfile(48, 42, NULL, 1530 <unfinished ...>
+31437 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP <unfinished ...>
+31441 <... sendfile resumed> )          = 1530
+31437 <... socket resumed> )            = 36
+31437 connect(36, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31437 sendmmsg(36, {{{msg_name(0)=NULL, msg_iov(1)=[{"9\323\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"I;\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31421 sendfile(45, 22, NULL, 817)       = 817
+31434 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 35
+31434 connect(35, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31434 sendmmsg(35, {{{msg_name(0)=NULL, msg_iov(1)=[{"\267\273\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\361\5\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31431 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 32
+31431 connect(32, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31431 sendmmsg(32, {{{msg_name(0)=NULL, msg_iov(1)=[{"s\3\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\221\223\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31442 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 30
+31442 connect(30, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31442 sendmmsg(30, {{{msg_name(0)=NULL, msg_iov(1)=[{"k\276\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"Q\7\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31429 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 43
+31429 connect(43, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31429 sendmmsg(43, {{{msg_name(0)=NULL, msg_iov(1)=[{"\27\336\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\1F\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31425 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 26
+31425 connect(26, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31425 sendmmsg(26, {{{msg_name(0)=NULL, msg_iov(1)=[{"O\236\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\255\310\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31435 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 29
+31435 connect(29, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31435 sendmmsg(29, {{{msg_name(0)=NULL, msg_iov(1)=[{"}\374\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"y\204\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31428 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 33
+31428 connect(33, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31428 sendmmsg(33, {{{msg_name(0)=NULL, msg_iov(1)=[{"+\33\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{")\302\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31432 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 28
+31432 connect(28, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31432 sendmmsg(28, {{{msg_name(0)=NULL, msg_iov(1)=[{"A^\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"UI\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31427 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 25
+31427 connect(25, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31427 sendmmsg(25, {{{msg_name(0)=NULL, msg_iov(1)=[{"t\311\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\276\34\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31424 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 24
+31424 connect(24, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31424 sendmmsg(24, {{{msg_name(0)=NULL, msg_iov(1)=[{"\202{\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{",\201\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31439 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 17
+31439 connect(17, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31439 sendmmsg(17, {{{msg_name(0)=NULL, msg_iov(1)=[{"\327|\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"@\204\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31426 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 23
+31426 connect(23, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31426 sendmmsg(23, {{{msg_name(0)=NULL, msg_iov(1)=[{"\365\333\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\250B\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31422 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 27
+31422 connect(27, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31422 sendmmsg(27, {{{msg_name(0)=NULL, msg_iov(1)=[{"\251\333\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\232A\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31436 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 37
+31436 connect(37, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31436 sendmmsg(37, {{{msg_name(0)=NULL, msg_iov(1)=[{"\315\34\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"9\307\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31433 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 39
+31433 connect(39, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31433 sendmmsg(39, {{{msg_name(0)=NULL, msg_iov(1)=[{"i\254\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\325\342\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31441 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 41
+31441 connect(41, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31441 sendmmsg(41, {{{msg_name(0)=NULL, msg_iov(1)=[{"\337\354\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\326f\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31440 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 42
+31440 connect(42, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31440 sendmmsg(42, {{{msg_name(0)=NULL, msg_iov(1)=[{"\0216\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\v\366\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31418 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 20
+31418 connect(20, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31418 sendmmsg(20, {{{msg_name(0)=NULL, msg_iov(1)=[{"\241\311\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\265\35\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31423 sendfile(44, 34, NULL, 504)       = 504
+31421 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 22
+31421 connect(22, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16 <unfinished ...>
+31419 sendfile(45, 40, NULL, 115 <unfinished ...>
+31421 <... connect resumed> )           = 0
+31421 sendmmsg(22, {{{msg_name(0)=NULL, msg_iov(1)=[{"\217\211\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\365\235\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31419 <... sendfile resumed> )          = 115
+31420 sendfile(46, 21, NULL, 924)       = 924
+31438 sendfile(44, 38, NULL, 662)       = 662
+31437 recvfrom(36, "9\323\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31423 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 34
+31423 connect(34, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31423 sendmmsg(34, {{{msg_name(0)=NULL, msg_iov(1)=[{"\312\202\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\200\217\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31420 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 21
+31420 connect(21, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31420 sendmmsg(21, {{{msg_name(0)=NULL, msg_iov(1)=[{"0d\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\354R\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31419 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 31
+31419 connect(31, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31419 sendmmsg(31, {{{msg_name(0)=NULL, msg_iov(1)=[{"\317p\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"Pk\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31438 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 38
+31438 connect(38, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31438 sendmmsg(38, {{{msg_name(0)=NULL, msg_iov(1)=[{"\v\210\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\226\232\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31430 sendfile(44, 40, NULL, 3757 <unfinished ...>
+31429 recvfrom(43, "\27\336\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31430 <... sendfile resumed> )          = 3757
+31430 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 40
+31430 connect(40, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31430 sendmmsg(40, {{{msg_name(0)=NULL, msg_iov(1)=[{"\3757\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\316\371\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31434 recvfrom(35, "\361\5\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31431 recvfrom(32, "\221\223\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31434 recvfrom(35, "\267\273\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31434 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 35
+31434 connect(35, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31431 recvfrom(32, "s\3\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31431 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 32
+31431 connect(32, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31442 recvfrom(30, "k\276\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31437 recvfrom(36, "I;\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31442 recvfrom(30, "Q\7\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31437 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 30
+31437 connect(30, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31442 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 36
+31442 connect(36, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31428 recvfrom(33,  <unfinished ...>
+31429 recvfrom(43,  <unfinished ...>
+31435 recvfrom(29, "}\374\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31439 recvfrom(17, "\327|\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31432 recvfrom(28,  <unfinished ...>
+31429 <... recvfrom resumed> "\1F\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31432 <... recvfrom resumed> "A^\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31439 recvfrom(17,  <unfinished ...>
+31435 recvfrom(29,  <unfinished ...>
+31439 <... recvfrom resumed> "@\204\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31435 <... recvfrom resumed> "y\204\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31439 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 17
+31439 connect(17, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31435 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+31432 recvfrom(28,  <unfinished ...>
+31435 <... socket resumed> )            = 29
+31432 <... recvfrom resumed> "UI\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31435 connect(29, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31428 <... recvfrom resumed> "+\33\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31429 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 28
+31429 connect(28, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31432 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 43
+31432 connect(43, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31427 recvfrom(25,  <unfinished ...>
+31428 recvfrom(33,  <unfinished ...>
+31427 <... recvfrom resumed> "t\311\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31428 <... recvfrom resumed> ")\302\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31425 recvfrom(26,  <unfinished ...>
+31428 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+31427 recvfrom(25,  <unfinished ...>
+31428 <... socket resumed> )            = 33
+31427 <... recvfrom resumed> "\276\34\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31428 connect(33, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31425 <... recvfrom resumed> "O\236\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31427 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 25
+31427 connect(25, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31424 recvfrom(24,  <unfinished ...>
+31425 recvfrom(26,  <unfinished ...>
+31424 <... recvfrom resumed> ",\201\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31425 <... recvfrom resumed> "\255\310\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31425 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 26
+31425 connect(26, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31424 recvfrom(24, "\202{\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31424 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 24
+31424 connect(24, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31422 recvfrom(27, "\251\333\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31436 recvfrom(37, "9\307\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31433 recvfrom(39, "i\254\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31426 recvfrom(23, "\250B\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31426 recvfrom(23, "\365\333\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31426 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 23
+31426 connect(23, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31441 recvfrom(41, "\326f\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31440 recvfrom(42, "\0216\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31421 recvfrom(22, "\217\211\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31418 recvfrom(20, "\265\35\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31434 <... connect resumed> )           = 0
+31436 recvfrom(37, "\315\34\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31441 recvfrom(41, "\337\354\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31441 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+31433 recvfrom(39,  <unfinished ...>
+31441 <... socket resumed> )            = 37
+31433 <... recvfrom resumed> "\325\342\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31441 connect(37, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31433 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+31418 recvfrom(20,  <unfinished ...>
+31433 <... socket resumed> )            = 39
+31418 <... recvfrom resumed> "\241\311\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31433 connect(39, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31436 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 20
+31444 +++ exited with 0 +++
+31436 connect(20, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31418 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 41
+31418 connect(41, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31434 getsockname(35, {sa_family=AF_INET, sin_port=htons(56566), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31434 setsockopt(35, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31438 recvfrom(38, "\v\210\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31420 recvfrom(21, "\354R\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31437 <... connect resumed> )           = 0
+31442 <... connect resumed> )           = 0
+31431 <... connect resumed> )           = 0
+31423 recvfrom(34, "\312\202\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31420 recvfrom(21, "0d\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31423 recvfrom(34, "\200\217\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31419 recvfrom(31, "Pk\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31419 recvfrom(31, "\317p\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31443 +++ exited with 0 +++
+31419 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 21
+31419 connect(21, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31420 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 31
+31420 connect(31, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31423 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 34
+31423 connect(34, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31446 +++ exited with 0 +++
+31442 getsockname(36,  <unfinished ...>
+31445 +++ exited with 0 +++
+31442 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56572), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31442 setsockopt(36, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31437 getsockname(30, {sa_family=AF_INET, sin_port=htons(56570), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31437 setsockopt(30, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31431 getsockname(32, {sa_family=AF_INET, sin_port=htons(56568), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31431 setsockopt(32, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31440 recvfrom(42, "\v\366\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31440 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 42
+31440 connect(42, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31438 recvfrom(38,  <unfinished ...>
+31430 recvfrom(40,  <unfinished ...>
+31438 <... recvfrom resumed> "\226\232\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31430 <... recvfrom resumed> "\3757\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31438 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 38
+31438 connect(38, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31439 <... connect resumed> )           = 0
+31435 <... connect resumed> )           = 0
+31432 <... connect resumed> )           = 0
+31429 <... connect resumed> )           = 0
+31430 recvfrom(40, "\316\371\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31428 <... connect resumed> )           = 0
+31454 +++ exited with 0 +++
+31435 getsockname(29, {sa_family=AF_INET, sin_port=htons(56576), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31435 setsockopt(29, SOL_TCP, TCP_NODELAY, [1], 4 <unfinished ...>
+31449 +++ exited with 0 +++
+31435 <... setsockopt resumed> )        = 0
+31421 recvfrom(22, "\365\235\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31430 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 22
+31430 connect(22, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31439 getsockname(17, {sa_family=AF_INET, sin_port=htons(56574), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31439 setsockopt(17, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31451 +++ exited with 0 +++
+31450 +++ exited with 0 +++
+31428 getsockname(33,  <unfinished ...>
+31447 +++ exited with 0 +++
+31428 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56582), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31428 setsockopt(33, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31432 getsockname(43, {sa_family=AF_INET, sin_port=htons(56580), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31432 setsockopt(43, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31429 getsockname(28, {sa_family=AF_INET, sin_port=htons(56578), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31429 setsockopt(28, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31421 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 40
+31421 connect(40, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31424 <... connect resumed> )           = 0
+31424 getsockname(24,  <unfinished ...>
+31453 +++ exited with 0 +++
+31424 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56588), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31424 setsockopt(24, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31427 <... connect resumed> )           = 0
+31426 <... connect resumed> )           = 0
+31455 +++ exited with 0 +++
+31427 getsockname(25, {sa_family=AF_INET, sin_port=htons(56584), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31427 setsockopt(25, SOL_TCP, TCP_NODELAY, [1], 4 <unfinished ...>
+31452 +++ exited with 0 +++
+31427 <... setsockopt resumed> )        = 0
+31426 getsockname(23, {sa_family=AF_INET, sin_port=htons(56590), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31426 setsockopt(23, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31441 <... connect resumed> )           = 0
+31441 getsockname(37,  <unfinished ...>
+31459 +++ exited with 0 +++
+31441 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56592), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31441 setsockopt(37, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31433 <... connect resumed> )           = 0
+31418 <... connect resumed> )           = 0
+31458 +++ exited with 0 +++
+31461 +++ exited with 0 +++
+31433 getsockname(39, {sa_family=AF_INET, sin_port=htons(56594), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31433 setsockopt(39, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31418 getsockname(41, {sa_family=AF_INET, sin_port=htons(56598), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31418 setsockopt(41, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31425 <... connect resumed> )           = 0
+31448 +++ exited with 0 +++
+31425 getsockname(26, {sa_family=AF_INET, sin_port=htons(56586), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31425 setsockopt(26, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31419 <... connect resumed> )           = 0
+31419 getsockname(21,  <unfinished ...>
+31465 +++ exited with 0 +++
+31419 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56600), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31419 setsockopt(21, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31436 <... connect resumed> )           = 0
+31457 +++ exited with 0 +++
+31436 getsockname(20, {sa_family=AF_INET, sin_port=htons(56596), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31436 setsockopt(20, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31423 <... connect resumed> )           = 0
+31423 getsockname(34,  <unfinished ...>
+31463 +++ exited with 0 +++
+31423 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56604), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31423 setsockopt(34, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31440 <... connect resumed> )           = 0
+31460 +++ exited with 0 +++
+31440 getsockname(42, {sa_family=AF_INET, sin_port=htons(56606), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31440 setsockopt(42, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31438 <... connect resumed> )           = 0
+31438 getsockname(38,  <unfinished ...>
+31466 +++ exited with 0 +++
+31438 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56608), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31438 setsockopt(38, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31430 <... connect resumed> )           = 0
+31421 <... connect resumed> )           = 0
+31462 +++ exited with 0 +++
+31420 <... connect resumed> )           = 0
+31421 getsockname(40, {sa_family=AF_INET, sin_port=htons(56612), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31421 setsockopt(40, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31467 +++ exited with 0 +++
+31464 +++ exited with 0 +++
+31430 getsockname(22, {sa_family=AF_INET, sin_port=htons(56610), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31430 setsockopt(22, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31420 getsockname(31, {sa_family=AF_INET, sin_port=htons(56602), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31420 setsockopt(31, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31434 setsockopt(35, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31437 setsockopt(30, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31435 setsockopt(29, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31439 setsockopt(17, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31428 setsockopt(33, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31431 setsockopt(32, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31442 setsockopt(36, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31433 setsockopt(39, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31432 setsockopt(43, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31427 setsockopt(25, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31424 setsockopt(24, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31429 setsockopt(28, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31441 setsockopt(37, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31426 setsockopt(23, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31419 setsockopt(21, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31418 setsockopt(41, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31423 setsockopt(34, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31425 setsockopt(26, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31440 setsockopt(42, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31438 setsockopt(38, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31436 setsockopt(20, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31421 setsockopt(40, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31430 setsockopt(22, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31420 setsockopt(31, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31433 sendfile(53, 51, NULL, 708)       = 708
+31434 sendfile(54, 44, NULL, 5672)      = 5672
+31435 sendfile(55, 45, NULL, 2099)      = 2099
+31439 sendfile(47, 48, NULL, 95)        = 95
+31432 sendfile(49, 50, NULL, 4638)      = 4638
+31422 sendto(27, "\251\333\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36, MSG_NOSIGNAL, NULL, 0) = 36
+31422 recvfrom(27, "\251\333\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31422 sendto(27, "\232A\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36, MSG_NOSIGNAL, NULL, 0) = 36
+31422 recvfrom(27, "\232A\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31422 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 27
+31422 connect(27, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16) = 0
+31422 getsockname(27,  <unfinished ...>
+31456 +++ exited with 0 +++
+31422 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56614), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31422 setsockopt(27, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31422 setsockopt(27, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31438 +++ exited with 0 +++
+31439 +++ exited with 0 +++
+31440 +++ exited with 0 +++
+31429 +++ exited with 0 +++
+31442 +++ exited with 0 +++
+31426 +++ exited with 0 +++
+31425 +++ exited with 0 +++
+31434 +++ exited with 0 +++
+31433 +++ exited with 0 +++
+31424 +++ exited with 0 +++
+31423 +++ exited with 0 +++
+31421 +++ exited with 0 +++
+31431 +++ exited with 0 +++
+31432 +++ exited with 0 +++
+31437 +++ exited with 0 +++
+31419 +++ exited with 0 +++
+31418 +++ exited with 0 +++
+31435 +++ exited with 0 +++
+31430 +++ exited with 0 +++
+31422 +++ exited with 0 +++
+31436 +++ exited with 0 +++
+31420 +++ exited with 0 +++
+31428 +++ exited with 0 +++
+31427 +++ exited with 0 +++
+31441 +++ exited with 0 +++
+31866 sendfile(69, 48, NULL, 166)       = 166
+31872 sendfile(70, 54, NULL, 1301)      = 1301
+31877 sendfile(71, 64, NULL, 1291)      = 1291
+31876 sendfile(72, 65, NULL, 93)        = 93
+31864 sendfile(74, 49, NULL, 2317)      = 2317
+31870 sendfile(76, 53, NULL, 534)       = 534
+31865 sendfile(77, 52, NULL, 309)       = 309
+31843 sendfile(79, 57, NULL, 1461)      = 1461
+31873 sendfile(70, 58, NULL, 728)       = 728
+31868 sendfile(80, 62, NULL, 494)       = 494
+31861 sendfile(73, 46, NULL, 981)       = 981
+31860 sendfile(75, 51, NULL, 2911 <unfinished ...>
+31862 sendfile(72, 50, NULL, 3593 <unfinished ...>
+31860 <... sendfile resumed> )          = 2911
+31862 <... sendfile resumed> )          = 3593
+31879 sendfile(69, 63, NULL, 95)        = 95
+31875 sendfile(76, 67, NULL, 6662)      = 6662
+31867 sendfile(70, 66, NULL, 247)       = 247
+31863 sendfile(71, 47, NULL, 1915)      = 1915
+31876 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 65
+31876 connect(65, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31876 sendmmsg(65, {{{msg_name(0)=NULL, msg_iov(1)=[{"&%\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"G\331\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31858 sendfile(78, 55, NULL, 478)       = 478
+31869 sendfile(74, 61, NULL, 5845)      = 5845
+31872 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 54
+31872 connect(54, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31872 sendmmsg(54, {{{msg_name(0)=NULL, msg_iov(1)=[{"\347\333\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\371D\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31873 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 58
+31873 connect(58, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31873 sendmmsg(58, {{{msg_name(0)=NULL, msg_iov(1)=[{"K\5\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\335\226\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31877 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 64
+31877 connect(64, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31877 sendmmsg(64, {{{msg_name(0)=NULL, msg_iov(1)=[{"h\256\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\3\346\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31866 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 48
+31866 connect(48, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31866 sendmmsg(48, {{{msg_name(0)=NULL, msg_iov(1)=[{"Y+\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"v\340\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31870 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 49
+31870 connect(49, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31870 sendmmsg(49, {{{msg_name(0)=NULL, msg_iov(1)=[{"fM\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\267$\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31864 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 53
+31864 connect(53, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31864 sendmmsg(53, {{{msg_name(0)=NULL, msg_iov(1)=[{"\177R\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\355.\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31862 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 63
+31862 connect(63, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31862 sendmmsg(63, {{{msg_name(0)=NULL, msg_iov(1)=[{"\346_\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\257J\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31861 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 46
+31861 connect(46, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31861 sendmmsg(46, {{{msg_name(0)=NULL, msg_iov(1)=[{"\233\251\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"[\334\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31860 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 51
+31860 connect(51, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31860 sendmmsg(51, {{{msg_name(0)=NULL, msg_iov(1)=[{"\334\365\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\tv\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31843 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 57
+31843 connect(57, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31843 sendmmsg(57, {{{msg_name(0)=NULL, msg_iov(1)=[{"m\t\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\31\235\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31868 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 62
+31868 connect(62, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31868 sendmmsg(62, {{{msg_name(0)=NULL, msg_iov(1)=[{"\361\0\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"u\215\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31867 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 60
+31867 connect(60, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31867 sendmmsg(60, {{{msg_name(0)=NULL, msg_iov(1)=[{"\373\366\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"my\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31865 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 44
+31865 connect(44, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31865 sendmmsg(44, {{{msg_name(0)=NULL, msg_iov(1)=[{"!\241\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"=\315\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31879 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 50
+31879 connect(50, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31879 sendmmsg(50, {{{msg_name(0)=NULL, msg_iov(1)=[{";\344\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"yS\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31875 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 52
+31875 connect(52, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31875 sendmmsg(52, {{{msg_name(0)=NULL, msg_iov(1)=[{"I\207\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"!\233\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31869 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 45
+31869 connect(45, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31869 sendmmsg(45, {{{msg_name(0)=NULL, msg_iov(1)=[{"L]\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\264D\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31863 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 47
+31863 connect(47, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31863 sendmmsg(47, {{{msg_name(0)=NULL, msg_iov(1)=[{"\253\204\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\253\225\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31858 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 55
+31858 connect(55, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31858 sendmmsg(55, {{{msg_name(0)=NULL, msg_iov(1)=[{"\214\215\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"(\246\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31876 recvfrom(65, "&%\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31876 recvfrom(65, "G\331\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31872 recvfrom(54,  <unfinished ...>
+31877 recvfrom(64,  <unfinished ...>
+31876 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+31877 <... recvfrom resumed> "h\256\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31876 <... socket resumed> )            = 56
+31876 connect(56, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31872 <... recvfrom resumed> "\371D\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31873 recvfrom(58,  <unfinished ...>
+31877 recvfrom(64, "\3\346\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31873 <... recvfrom resumed> "K\5\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31872 recvfrom(54,  <unfinished ...>
+31877 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+31872 <... recvfrom resumed> "\347\333\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31877 <... socket resumed> )            = 59
+31877 connect(59, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31870 recvfrom(49,  <unfinished ...>
+31872 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+31873 recvfrom(58,  <unfinished ...>
+31872 <... socket resumed> )            = 54
+31873 <... recvfrom resumed> "\335\226\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31872 connect(54, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31870 <... recvfrom resumed> "fM\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31868 recvfrom(62,  <unfinished ...>
+31873 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+31868 <... recvfrom resumed> "\361\0\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31873 <... socket resumed> )            = 58
+31873 connect(58, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31867 recvfrom(60,  <unfinished ...>
+31870 recvfrom(49,  <unfinished ...>
+31867 <... recvfrom resumed> "\373\366\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31870 <... recvfrom resumed> "\267$\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31868 recvfrom(62, "u\215\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31870 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 49
+31870 connect(49, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31868 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 61
+31868 connect(61, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31866 recvfrom(48, "Y+\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31864 recvfrom(53, "\177R\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31866 recvfrom(48, "v\340\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31862 recvfrom(63, "\346_\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31866 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+31864 recvfrom(53,  <unfinished ...>
+31866 <... socket resumed> )            = 48
+31864 <... recvfrom resumed> "\355.\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31866 connect(48, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31864 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 53
+31864 connect(53, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31862 recvfrom(63,  <unfinished ...>
+31861 recvfrom(46,  <unfinished ...>
+31862 <... recvfrom resumed> "\257J\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31861 <... recvfrom resumed> "\233\251\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31862 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 62
+31862 connect(62, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31860 recvfrom(51,  <unfinished ...>
+31861 recvfrom(46,  <unfinished ...>
+31860 <... recvfrom resumed> "\334\365\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31861 <... recvfrom resumed> "[\334\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31861 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 46
+31861 connect(46, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31860 recvfrom(51,  <unfinished ...>
+31843 recvfrom(57,  <unfinished ...>
+31860 <... recvfrom resumed> "\tv\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31843 <... recvfrom resumed> "m\t\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31860 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 51
+31860 connect(51, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31843 recvfrom(57, "\31\235\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31843 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 57
+31843 connect(57, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31865 recvfrom(44, "=\315\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31876 <... connect resumed> )           = 0
+31879 recvfrom(50, ";\344\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31875 recvfrom(52, "I\207\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31879 recvfrom(50, "yS\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31875 recvfrom(52,  <unfinished ...>
+31879 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 50
+31881 +++ exited with 0 +++
+31875 <... recvfrom resumed> "!\233\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31879 connect(50, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31867 recvfrom(60,  <unfinished ...>
+31876 getsockname(56, {sa_family=AF_INET, sin_port=htons(56616), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31869 recvfrom(45,  <unfinished ...>
+31876 setsockopt(56, SOL_TCP, TCP_NODELAY, [1], 4 <unfinished ...>
+31867 <... recvfrom resumed> "my\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31876 <... setsockopt resumed> )        = 0
+31869 <... recvfrom resumed> "L]\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31863 recvfrom(47, "\253\225\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31865 recvfrom(44,  <unfinished ...>
+31869 recvfrom(45,  <unfinished ...>
+31865 <... recvfrom resumed> "!\241\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31869 <... recvfrom resumed> "\264D\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31858 recvfrom(55, "\214\215\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31863 recvfrom(47, "\253\204\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31858 recvfrom(55, "(\246\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31875 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 44
+31875 connect(44, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31867 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 45
+31867 connect(45, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31865 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 47
+31865 connect(47, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31869 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 52
+31869 connect(52, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31863 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 55
+31863 connect(55, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31858 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 60
+31858 connect(60, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31877 <... connect resumed> )           = 0
+31877 getsockname(59, {sa_family=AF_INET, sin_port=htons(56618), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31884 +++ exited with 0 +++
+31877 setsockopt(59, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31872 <... connect resumed> )           = 0
+31872 getsockname(54,  <unfinished ...>
+31882 +++ exited with 0 +++
+31872 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56620), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31872 setsockopt(54, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31870 <... connect resumed> )           = 0
+31870 getsockname(49, {sa_family=AF_INET, sin_port=htons(56624), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31886 +++ exited with 0 +++
+31870 setsockopt(49, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31866 <... connect resumed> )           = 0
+31873 <... connect resumed> )           = 0
+31868 <... connect resumed> )           = 0
+31892 +++ exited with 0 +++
+31885 +++ exited with 0 +++
+31868 getsockname(61, {sa_family=AF_INET, sin_port=htons(56626), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31868 setsockopt(61, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31866 getsockname(48, {sa_family=AF_INET, sin_port=htons(56628), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31866 setsockopt(48, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31883 +++ exited with 0 +++
+31873 getsockname(58, {sa_family=AF_INET, sin_port=htons(56622), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31873 setsockopt(58, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31864 <... connect resumed> )           = 0
+31864 getsockname(53,  <unfinished ...>
+31887 +++ exited with 0 +++
+31864 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56630), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31864 setsockopt(53, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31860 <... connect resumed> )           = 0
+31862 <... connect resumed> )           = 0
+31861 <... connect resumed> )           = 0
+31890 +++ exited with 0 +++
+31888 +++ exited with 0 +++
+31889 +++ exited with 0 +++
+31861 getsockname(46, {sa_family=AF_INET, sin_port=htons(56634), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31861 setsockopt(46, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31862 getsockname(62, {sa_family=AF_INET, sin_port=htons(56632), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31862 setsockopt(62, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31860 getsockname(51, {sa_family=AF_INET, sin_port=htons(56636), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31860 setsockopt(51, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31843 <... connect resumed> )           = 0
+31891 +++ exited with 0 +++
+31843 getsockname(57, {sa_family=AF_INET, sin_port=htons(56638), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31843 setsockopt(57, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31879 <... connect resumed> )           = 0
+31875 <... connect resumed> )           = 0
+31896 +++ exited with 0 +++
+31895 +++ exited with 0 +++
+31875 getsockname(44, {sa_family=AF_INET, sin_port=htons(56642), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31875 setsockopt(44, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31879 getsockname(50, {sa_family=AF_INET, sin_port=htons(56640), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31879 setsockopt(50, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31863 <... connect resumed> )           = 0
+31863 getsockname(55,  <unfinished ...>
+31898 +++ exited with 0 +++
+31863 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56650), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31863 setsockopt(55, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31869 <... connect resumed> )           = 0
+31865 <... connect resumed> )           = 0
+31897 +++ exited with 0 +++
+31869 getsockname(52,  <unfinished ...>
+31894 +++ exited with 0 +++
+31869 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56648), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31869 setsockopt(52, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31865 getsockname(47, {sa_family=AF_INET, sin_port=htons(56646), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31865 setsockopt(47, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31867 <... connect resumed> )           = 0
+31867 getsockname(45,  <unfinished ...>
+31893 +++ exited with 0 +++
+31867 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56644), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31867 setsockopt(45, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31858 <... connect resumed> )           = 0
+31899 +++ exited with 0 +++
+31858 getsockname(60, {sa_family=AF_INET, sin_port=htons(56652), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31858 setsockopt(60, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31876 setsockopt(56, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31870 setsockopt(49, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31877 setsockopt(59, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31873 setsockopt(58, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31864 setsockopt(53, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31872 setsockopt(54, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31868 setsockopt(61, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31861 setsockopt(46, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31860 setsockopt(51, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31843 setsockopt(57, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31866 setsockopt(48, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31862 setsockopt(62, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31879 setsockopt(50, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31869 setsockopt(52, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31863 setsockopt(55, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31875 setsockopt(44, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31865 setsockopt(47, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31867 setsockopt(45, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31858 setsockopt(60, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31880 +++ exited with 0 +++
+31844 +++ exited with 0 +++
+31859 +++ exited with 0 +++
+31871 +++ exited with 0 +++
+31874 +++ exited with 0 +++
+31877 +++ exited with 0 +++
+31876 +++ exited with 0 +++
+31872 +++ exited with 0 +++
+31873 +++ exited with 0 +++
+31879 +++ exited with 0 +++
+31875 +++ exited with 0 +++
+31870 +++ exited with 0 +++
+31867 +++ exited with 0 +++
+31868 +++ exited with 0 +++
+31869 +++ exited with 0 +++
+31866 +++ exited with 0 +++
+31865 +++ exited with 0 +++
+31864 +++ exited with 0 +++
+31863 +++ exited with 0 +++
+31862 +++ exited with 0 +++
+31861 +++ exited with 0 +++
+31860 +++ exited with 0 +++
+31845 +++ exited with 0 +++
+31858 +++ exited with 0 +++
+31843 +++ exited with 0 +++
+31977 sendfile(82, 65, NULL, 2575)      = 2575
+31982 sendfile(83, 70, NULL, 328)       = 328
+31988 sendfile(88, 74, NULL, 1178)      = 1178
+31997 sendfile(84, 63, NULL, 5089 <unfinished ...>
+31999 sendfile(89, 81, NULL, 1047 <unfinished ...>
+31997 <... sendfile resumed> )          = 5089
+31999 <... sendfile resumed> )          = 1047
+31983 sendfile(85, 71, NULL, 1536)      = 1536
+31986 sendfile(86, 73, NULL, 1806)      = 1806
+31989 sendfile(87, 75, NULL, 1078)      = 1078
+31990 sendfile(78, 76, NULL, 849)       = 849
+31995 sendfile(69, 80, NULL, 117)       = 117
+31976 sendfile(64, 68, NULL, 277)       = 277
+31988 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 74
+31988 connect(74, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31988 sendmmsg(74, {{{msg_name(0)=NULL, msg_iov(1)=[{"\337\367\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"^}\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31977 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 65
+31977 connect(65, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31977 sendmmsg(65, {{{msg_name(0)=NULL, msg_iov(1)=[{"\337\3\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"d\221\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31983 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 64
+31983 connect(64, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31983 sendmmsg(64, {{{msg_name(0)=NULL, msg_iov(1)=[{"\351g\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"-\\\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31980 sendfile(77, 66, NULL, 2805)      = 2805
+31986 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 69
+31986 connect(69, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31986 sendmmsg(69, {{{msg_name(0)=NULL, msg_iov(1)=[{"\241P\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\311+\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31982 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 63
+31982 connect(63, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31982 sendmmsg(63, {{{msg_name(0)=NULL, msg_iov(1)=[{"\330\311\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\224\37\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31997 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 67
+31997 connect(67, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31997 sendmmsg(67, {{{msg_name(0)=NULL, msg_iov(1)=[{"\322\274\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\346\3\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31989 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 72
+31989 connect(72, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31989 sendmmsg(72, {{{msg_name(0)=NULL, msg_iov(1)=[{"\3458\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"2\374\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31999 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 73
+31999 connect(73, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31999 sendmmsg(73, {{{msg_name(0)=NULL, msg_iov(1)=[{"T6\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"s\365\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31990 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 70
+31990 connect(70, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31990 sendmmsg(70, {{{msg_name(0)=NULL, msg_iov(1)=[{"\0\27\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\354\271\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31995 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 71
+31995 connect(71, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31995 sendmmsg(71, {{{msg_name(0)=NULL, msg_iov(1)=[{"t.\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\234\347\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31976 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 66
+31976 connect(66, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31976 sendmmsg(66, {{{msg_name(0)=NULL, msg_iov(1)=[{"S\24\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\f\262\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31980 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 68
+31980 connect(68, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+31980 sendmmsg(68, {{{msg_name(0)=NULL, msg_iov(1)=[{"\373\36\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"R\310\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+31988 recvfrom(74, "\337\367\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31977 recvfrom(65,  <unfinished ...>
+31997 recvfrom(67,  <unfinished ...>
+31988 recvfrom(74,  <unfinished ...>
+31997 <... recvfrom resumed> "\322\274\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31988 <... recvfrom resumed> "^}\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31986 recvfrom(69,  <unfinished ...>
+31983 recvfrom(64,  <unfinished ...>
+31986 <... recvfrom resumed> "\241P\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31983 <... recvfrom resumed> "\351g\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31988 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 74
+31988 connect(74, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31986 recvfrom(69, "\311+\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31982 recvfrom(63, "\330\311\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31983 recvfrom(64,  <unfinished ...>
+31986 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+31983 <... recvfrom resumed> "-\\\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31986 <... socket resumed> )            = 69
+31986 connect(69, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31977 <... recvfrom resumed> "\337\3\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31983 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 64
+31983 connect(64, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31982 recvfrom(63, "\224\37\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31977 recvfrom(65, "d\221\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31982 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 63
+31982 connect(63, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31977 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 65
+31977 connect(65, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31997 recvfrom(67, "\346\3\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31997 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 67
+31997 connect(67, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31989 recvfrom(72, "\3458\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31999 recvfrom(73, "T6\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31989 recvfrom(72, "2\374\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31989 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 72
+31989 connect(72, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31995 recvfrom(71, "t.\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31999 recvfrom(73, "s\365\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31990 recvfrom(70,  <unfinished ...>
+31980 recvfrom(68,  <unfinished ...>
+31999 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+31990 <... recvfrom resumed> "\0\27\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31999 <... socket resumed> )            = 73
+31999 connect(73, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31980 <... recvfrom resumed> "\373\36\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31976 recvfrom(66, "\f\262\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31990 recvfrom(70, "\354\271\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31990 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 70
+31990 connect(70, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31995 recvfrom(71, "\234\347\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31976 recvfrom(66,  <unfinished ...>
+31995 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+31976 <... recvfrom resumed> "S\24\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+31995 <... socket resumed> )            = 71
+31995 connect(71, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31976 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 66
+31976 connect(66, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31980 recvfrom(68, "R\310\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+31980 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 68
+31980 connect(68, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+31988 <... connect resumed> )           = 0
+31988 getsockname(74,  <unfinished ...>
+32000 +++ exited with 0 +++
+31988 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56654), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31988 setsockopt(74, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31983 <... connect resumed> )           = 0
+31982 <... connect resumed> )           = 0
+32004 +++ exited with 0 +++
+31982 getsockname(63,  <unfinished ...>
+32002 +++ exited with 0 +++
+31982 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56660), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31982 setsockopt(63, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31983 getsockname(64, {sa_family=AF_INET, sin_port=htons(56658), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31983 setsockopt(64, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31977 <... connect resumed> )           = 0
+32001 +++ exited with 0 +++
+31977 getsockname(65, {sa_family=AF_INET, sin_port=htons(56662), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31977 setsockopt(65, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31997 <... connect resumed> )           = 0
+31989 <... connect resumed> )           = 0
+32006 +++ exited with 0 +++
+32005 +++ exited with 0 +++
+31989 getsockname(72, {sa_family=AF_INET, sin_port=htons(56666), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31989 setsockopt(72, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31997 getsockname(67, {sa_family=AF_INET, sin_port=htons(56664), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31997 setsockopt(67, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31986 <... connect resumed> )           = 0
+31986 getsockname(69,  <unfinished ...>
+32003 +++ exited with 0 +++
+31986 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56656), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31986 setsockopt(69, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31999 <... connect resumed> )           = 0
+31999 getsockname(73,  <unfinished ...>
+32007 +++ exited with 0 +++
+31999 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56668), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31999 setsockopt(73, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31990 <... connect resumed> )           = 0
+31995 <... connect resumed> )           = 0
+32008 +++ exited with 0 +++
+31990 getsockname(70, {sa_family=AF_INET, sin_port=htons(56670), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31990 setsockopt(70, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31995 getsockname(71,  <unfinished ...>
+32009 +++ exited with 0 +++
+31995 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56672), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31995 setsockopt(71, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31976 <... connect resumed> )           = 0
+32010 +++ exited with 0 +++
+31976 getsockname(66, {sa_family=AF_INET, sin_port=htons(56674), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31976 setsockopt(66, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31980 <... connect resumed> )           = 0
+31980 getsockname(68,  <unfinished ...>
+32011 +++ exited with 0 +++
+31980 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56676), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+31980 setsockopt(68, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31977 setsockopt(65, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31983 setsockopt(64, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31989 setsockopt(72, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31982 setsockopt(63, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31988 setsockopt(74, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31997 setsockopt(67, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31999 setsockopt(73, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31990 setsockopt(70, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31986 setsockopt(69, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31976 setsockopt(66, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31995 setsockopt(71, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31980 setsockopt(68, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+31995 +++ exited with 0 +++
+31980 +++ exited with 0 +++
+31993 +++ exited with 0 +++
+31976 +++ exited with 0 +++
+31996 +++ exited with 0 +++
+31987 +++ exited with 0 +++
+31998 +++ exited with 0 +++
+31992 +++ exited with 0 +++
+31984 +++ exited with 0 +++
+31981 +++ exited with 0 +++
+31979 +++ exited with 0 +++
+31983 +++ exited with 0 +++
+31975 +++ exited with 0 +++
+31997 +++ exited with 0 +++
+31999 +++ exited with 0 +++
+31978 +++ exited with 0 +++
+31990 +++ exited with 0 +++
+31986 +++ exited with 0 +++
+31994 +++ exited with 0 +++
+31991 +++ exited with 0 +++
+31989 +++ exited with 0 +++
+31977 +++ exited with 0 +++
+31988 +++ exited with 0 +++
+31982 +++ exited with 0 +++
+31985 +++ exited with 0 +++
+32014 sendfile(100, 76, NULL, 1385)     = 1385
+32019 sendfile(101, 81, NULL, 2208)     = 2208
+32017 sendfile(103, 79, NULL, 2960)     = 2960
+32013 sendfile(102, 75, NULL, 394)      = 394
+32024 sendfile(100, 87, NULL, 753 <unfinished ...>
+32026 sendfile(104, 88, NULL, 684 <unfinished ...>
+32024 <... sendfile resumed> )          = 753
+32026 <... sendfile resumed> )          = 684
+32025 sendfile(105, 93, NULL, 2218)     = 2218
+32035 sendfile(106, 98, NULL, 107)      = 107
+32020 sendfile(90, 82, NULL, 1851)      = 1851
+32012 sendfile(80, 83, NULL, 1404)      = 1404
+32014 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 76
+32014 connect(76, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32014 sendmmsg(76, {{{msg_name(0)=NULL, msg_iov(1)=[{"\362K\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\27%\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32019 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 80
+32019 connect(80, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32019 sendmmsg(80, {{{msg_name(0)=NULL, msg_iov(1)=[{"Lw\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"vy\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32035 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 77
+32035 connect(77, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32035 sendmmsg(77, {{{msg_name(0)=NULL, msg_iov(1)=[{"#\255\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\253<\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32020 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 79
+32020 connect(79, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32020 sendmmsg(79, {{{msg_name(0)=NULL, msg_iov(1)=[{"A\355\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\205d\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32017 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 84
+32017 connect(84, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32017 sendmmsg(84, {{{msg_name(0)=NULL, msg_iov(1)=[{"ot\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"!u\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32026 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 78
+32026 connect(78, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32026 sendmmsg(78, {{{msg_name(0)=NULL, msg_iov(1)=[{"\237#\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\251\321\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32013 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 75
+32013 connect(75, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32013 sendmmsg(75, {{{msg_name(0)=NULL, msg_iov(1)=[{"\0254\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\305\362\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32012 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 82
+32012 connect(82, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32012 sendmmsg(82, {{{msg_name(0)=NULL, msg_iov(1)=[{"+\362\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\211n\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32024 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 81
+32024 connect(81, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32024 sendmmsg(81, {{{msg_name(0)=NULL, msg_iov(1)=[{"\5\316\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"]&\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32025 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 83
+32025 connect(83, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32025 sendmmsg(83, {{{msg_name(0)=NULL, msg_iov(1)=[{"\263\365\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\251u\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32014 recvfrom(76, "\362K\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32035 recvfrom(77,  <unfinished ...>
+32019 recvfrom(80,  <unfinished ...>
+32035 <... recvfrom resumed> "#\255\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32019 <... recvfrom resumed> "Lw\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32014 recvfrom(76, "\27%\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32035 recvfrom(77,  <unfinished ...>
+32019 recvfrom(80,  <unfinished ...>
+32035 <... recvfrom resumed> "\253<\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32019 <... recvfrom resumed> "vy\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32014 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 76
+32014 connect(76, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32019 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 77
+32019 connect(77, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32035 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 80
+32035 connect(80, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32020 recvfrom(79, "\205d\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32017 recvfrom(84,  <unfinished ...>
+32020 recvfrom(79,  <unfinished ...>
+32017 <... recvfrom resumed> "ot\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32020 <... recvfrom resumed> "A\355\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32020 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 79
+32020 connect(79, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32026 recvfrom(78, "\237#\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32013 recvfrom(75, "\0254\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32017 recvfrom(84,  <unfinished ...>
+32026 recvfrom(78,  <unfinished ...>
+32017 <... recvfrom resumed> "!u\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32026 <... recvfrom resumed> "\251\321\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32012 recvfrom(82, "+\362\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32026 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 78
+32013 recvfrom(75, "\305\362\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32026 connect(78, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32017 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 75
+32017 connect(75, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32013 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 84
+32013 connect(84, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32012 recvfrom(82, "\211n\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32024 recvfrom(81, "]&\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32025 recvfrom(83, "\263\365\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32012 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+32024 recvfrom(81,  <unfinished ...>
+32012 <... socket resumed> )            = 82
+32024 <... recvfrom resumed> "\5\316\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32012 connect(82, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32024 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 81
+32024 connect(81, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32025 recvfrom(83, "\251u\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32025 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 83
+32025 connect(83, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32014 <... connect resumed> )           = 0
+32014 getsockname(76, {sa_family=AF_INET, sin_port=htons(56678), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32037 +++ exited with 0 +++
+32014 setsockopt(76, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32019 <... connect resumed> )           = 0
+32019 getsockname(77,  <unfinished ...>
+32038 +++ exited with 0 +++
+32019 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56680), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32019 setsockopt(77, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32020 <... connect resumed> )           = 0
+32040 +++ exited with 0 +++
+32020 getsockname(79, {sa_family=AF_INET, sin_port=htons(56684), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32020 setsockopt(79, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32035 <... connect resumed> )           = 0
+32035 getsockname(80,  <unfinished ...>
+32039 +++ exited with 0 +++
+32035 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56682), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32035 setsockopt(80, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32026 <... connect resumed> )           = 0
+32026 getsockname(78,  <unfinished ...>
+32042 +++ exited with 0 +++
+32026 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56686), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32026 setsockopt(78, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32017 <... connect resumed> )           = 0
+32041 +++ exited with 0 +++
+32017 getsockname(75, {sa_family=AF_INET, sin_port=htons(56688), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32017 setsockopt(75, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32013 <... connect resumed> )           = 0
+32013 getsockname(84,  <unfinished ...>
+32043 +++ exited with 0 +++
+32013 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56690), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32013 setsockopt(84, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32024 <... connect resumed> )           = 0
+32045 +++ exited with 0 +++
+32024 getsockname(81, {sa_family=AF_INET, sin_port=htons(56694), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32024 setsockopt(81, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32012 <... connect resumed> )           = 0
+32025 <... connect resumed> )           = 0
+32025 getsockname(83,  <unfinished ...>
+32044 +++ exited with 0 +++
+32025 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56696), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32046 +++ exited with 0 +++
+32025 setsockopt(83, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32012 getsockname(82, {sa_family=AF_INET, sin_port=htons(56692), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32012 setsockopt(82, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32019 setsockopt(77, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32014 setsockopt(76, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32020 setsockopt(79, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32026 setsockopt(78, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32035 setsockopt(80, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32024 setsockopt(81, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32013 setsockopt(84, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32017 setsockopt(75, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32012 setsockopt(82, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32025 setsockopt(83, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32034 +++ exited with 0 +++
+32025 +++ exited with 0 +++
+32017 +++ exited with 0 +++
+32031 +++ exited with 0 +++
+32016 +++ exited with 0 +++
+32027 +++ exited with 0 +++
+32022 +++ exited with 0 +++
+32023 +++ exited with 0 +++
+32033 +++ exited with 0 +++
+32036 +++ exited with 0 +++
+32030 +++ exited with 0 +++
+32015 +++ exited with 0 +++
+32014 +++ exited with 0 +++
+32020 +++ exited with 0 +++
+32035 +++ exited with 0 +++
+32024 +++ exited with 0 +++
+32019 +++ exited with 0 +++
+32028 +++ exited with 0 +++
+32029 +++ exited with 0 +++
+32032 +++ exited with 0 +++
+32018 +++ exited with 0 +++
+32026 +++ exited with 0 +++
+32021 +++ exited with 0 +++
+32013 +++ exited with 0 +++
+32012 +++ exited with 0 +++
+32049 sendfile(110, 87, NULL, 1739)     = 1739
+32055 sendfile(111, 93, NULL, 1224)     = 1224
+32062 sendfile(112, 98, NULL, 641)      = 641
+32051 sendfile(113, 91, NULL, 915)      = 915
+32060 sendfile(115, 101, NULL, 500 <unfinished ...>
+32066 sendfile(116, 103, NULL, 270 <unfinished ...>
+32060 <... sendfile resumed> )          = 500
+32066 <... sendfile resumed> )          = 270
+32047 sendfile(117, 109, NULL, 7140)    = 7140
+32059 sendfile(114, 97, NULL, 733)      = 733
+32062 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 90
+32062 connect(90, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32062 sendmmsg(90, {{{msg_name(0)=NULL, msg_iov(1)=[{"\215t\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\301x\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32068 sendfile(89, 86, NULL, 839)       = 839
+32066 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 87
+32066 connect(87, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32066 sendmmsg(87, {{{msg_name(0)=NULL, msg_iov(1)=[{"\342\351\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\375b\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32071 sendfile(98, 85, NULL, 732)       = 732
+32049 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 96
+32049 connect(96, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32049 sendmmsg(96, {{{msg_name(0)=NULL, msg_iov(1)=[{"j\266\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"1\366\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32059 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 88
+32059 connect(88, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32059 sendmmsg(88, {{{msg_name(0)=NULL, msg_iov(1)=[{"\252\370\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\316|\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32051 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 91
+32051 connect(91, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32051 sendmmsg(91, {{{msg_name(0)=NULL, msg_iov(1)=[{"\253<\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\217\4\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32061 sendfile(100, 99, NULL, 7384)     = 7384
+32055 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 92
+32055 connect(92, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32055 sendmmsg(92, {{{msg_name(0)=NULL, msg_iov(1)=[{"jf\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\214W\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32060 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 85
+32060 connect(85, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32060 sendmmsg(85, {{{msg_name(0)=NULL, msg_iov(1)=[{"\317\376\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"<\207\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32047 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 86
+32047 connect(86, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32047 sendmmsg(86, {{{msg_name(0)=NULL, msg_iov(1)=[{"j\346\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\273V\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32068 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 89
+32068 connect(89, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32068 sendmmsg(89, {{{msg_name(0)=NULL, msg_iov(1)=[{"\303|\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\5\206\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32061 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 93
+32061 connect(93, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32061 sendmmsg(93, {{{msg_name(0)=NULL, msg_iov(1)=[{"\375Y\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\371>\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32071 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 94
+32071 connect(94, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32071 sendmmsg(94, {{{msg_name(0)=NULL, msg_iov(1)=[{"}\370\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\251{\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32066 recvfrom(87, "\375b\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32066 recvfrom(87,  <unfinished ...>
+32062 recvfrom(90,  <unfinished ...>
+32066 <... recvfrom resumed> "\342\351\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32062 <... recvfrom resumed> "\215t\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32059 recvfrom(88, "\252\370\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32066 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 87
+32066 connect(87, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32049 recvfrom(96,  <unfinished ...>
+32062 recvfrom(90,  <unfinished ...>
+32049 <... recvfrom resumed> "j\266\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32062 <... recvfrom resumed> "\301x\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32062 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 90
+32062 connect(90, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32049 recvfrom(96, "1\366\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32049 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 95
+32049 connect(95, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32051 recvfrom(91, "\217\4\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32060 recvfrom(85, "\317\376\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32059 recvfrom(88, "\316|\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32055 recvfrom(92, "jf\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32059 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 88
+32059 connect(88, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32055 recvfrom(92,  <unfinished ...>
+32051 recvfrom(91,  <unfinished ...>
+32055 <... recvfrom resumed> "\214W\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32051 <... recvfrom resumed> "\253<\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32051 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 91
+32051 connect(91, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32055 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 92
+32055 connect(92, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32047 recvfrom(86, "j\346\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32068 recvfrom(89, "\303|\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32061 recvfrom(93,  <unfinished ...>
+32068 recvfrom(89,  <unfinished ...>
+32061 <... recvfrom resumed> "\375Y\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32068 <... recvfrom resumed> "\5\206\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32060 recvfrom(85, "<\207\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32068 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 85
+32061 recvfrom(93, "\371>\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32047 recvfrom(86, "\273V\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32068 connect(85, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32061 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 86
+32061 connect(86, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32060 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 89
+32060 connect(89, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32047 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 93
+32047 connect(93, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32066 <... connect resumed> )           = 0
+32066 getsockname(87,  <unfinished ...>
+32073 +++ exited with 0 +++
+32066 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56698), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32066 setsockopt(87, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32071 recvfrom(94, "}\370\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32071 recvfrom(94, "\251{\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32071 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 94
+32071 connect(94, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32049 <... connect resumed> )           = 0
+32049 getsockname(95, {sa_family=AF_INET, sin_port=htons(56702), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32074 +++ exited with 0 +++
+32049 setsockopt(95, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32062 <... connect resumed> )           = 0
+32051 <... connect resumed> )           = 0
+32076 +++ exited with 0 +++
+32062 getsockname(90, {sa_family=AF_INET, sin_port=htons(56700), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32062 setsockopt(90, SOL_TCP, TCP_NODELAY, [1], 4 <unfinished ...>
+32072 +++ exited with 0 +++
+32062 <... setsockopt resumed> )        = 0
+32051 getsockname(91, {sa_family=AF_INET, sin_port=htons(56706), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32051 setsockopt(91, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32059 <... connect resumed> )           = 0
+32059 getsockname(88,  <unfinished ...>
+32075 +++ exited with 0 +++
+32059 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56704), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32059 setsockopt(88, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32055 <... connect resumed> )           = 0
+32055 getsockname(92,  <unfinished ...>
+32077 +++ exited with 0 +++
+32055 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56708), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32055 setsockopt(92, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32068 <... connect resumed> )           = 0
+32068 getsockname(85,  <unfinished ...>
+32080 +++ exited with 0 +++
+32068 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56710), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32068 setsockopt(85, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32060 <... connect resumed> )           = 0
+32060 getsockname(89,  <unfinished ...>
+32078 +++ exited with 0 +++
+32060 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56714), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32060 setsockopt(89, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32047 <... connect resumed> )           = 0
+32047 getsockname(93,  <unfinished ...>
+32079 +++ exited with 0 +++
+32047 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56716), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32047 setsockopt(93, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32061 <... connect resumed> )           = 0
+32081 +++ exited with 0 +++
+32061 getsockname(86, {sa_family=AF_INET, sin_port=htons(56712), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32061 setsockopt(86, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32071 <... connect resumed> )           = 0
+32071 getsockname(94,  <unfinished ...>
+32082 +++ exited with 0 +++
+32071 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56718), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32071 setsockopt(94, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32049 setsockopt(95, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32066 setsockopt(87, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32051 setsockopt(91, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32062 setsockopt(90, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32068 setsockopt(85, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32059 setsockopt(88, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32055 setsockopt(92, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32060 setsockopt(89, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32047 setsockopt(93, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32061 setsockopt(86, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32071 setsockopt(94, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32070 +++ exited with 0 +++
+32065 +++ exited with 0 +++
+32067 +++ exited with 0 +++
+32052 +++ exited with 0 +++
+32064 +++ exited with 0 +++
+32066 +++ exited with 0 +++
+32051 +++ exited with 0 +++
+32062 +++ exited with 0 +++
+32058 +++ exited with 0 +++
+32068 +++ exited with 0 +++
+32059 +++ exited with 0 +++
+32057 +++ exited with 0 +++
+32056 +++ exited with 0 +++
+32048 +++ exited with 0 +++
+32049 +++ exited with 0 +++
+32071 +++ exited with 0 +++
+32047 +++ exited with 0 +++
+32069 +++ exited with 0 +++
+32063 +++ exited with 0 +++
+32053 +++ exited with 0 +++
+32050 +++ exited with 0 +++
+32055 +++ exited with 0 +++
+32060 +++ exited with 0 +++
+32061 +++ exited with 0 +++
+32054 +++ exited with 0 +++
+32101 sendfile(111, 96, NULL, 2507)     = 2507
+32093 sendfile(112, 101, NULL, 2285)    = 2285
+32103 sendfile(113, 110, NULL, 2147)    = 2147
+32102 sendfile(114, 107, NULL, 565)     = 565
+32087 sendfile(115, 97, NULL, 1676)     = 1676
+32092 sendfile(111, 100, NULL, 1874)    = 1874
+32104 sendfile(117, 109, NULL, 841)     = 841
+32105 sendfile(118, 108, NULL, 2027)    = 2027
+32085 sendfile(116, 99, NULL, 864)      = 864
+32100 sendfile(112, 106, NULL, 326)     = 326
+32090 sendfile(119, 98, NULL, 1243)     = 1243
+32104 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 99
+32104 connect(99, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32104 sendmmsg(99, {{{msg_name(0)=NULL, msg_iov(1)=[{")7\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"!\375\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32103 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 102
+32103 connect(102, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32103 sendmmsg(102, {{{msg_name(0)=NULL, msg_iov(1)=[{"\251\323\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"E2\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32092 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 100
+32092 connect(100, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32092 sendmmsg(100, {{{msg_name(0)=NULL, msg_iov(1)=[{"}\220\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\241\253\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32105 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 96
+32105 connect(96, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32105 sendmmsg(96, {{{msg_name(0)=NULL, msg_iov(1)=[{"+\255\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\255\346\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32101 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 98
+32101 connect(98, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32101 sendmmsg(98, {{{msg_name(0)=NULL, msg_iov(1)=[{"a\232\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\375\276\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32090 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 101
+32090 connect(101, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32090 sendmmsg(101, {{{msg_name(0)=NULL, msg_iov(1)=[{"\203\347\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\37Y\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32093 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 103
+32093 connect(103, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32093 sendmmsg(103, {{{msg_name(0)=NULL, msg_iov(1)=[{"=\f\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\243\243\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32102 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 105
+32102 connect(105, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32102 sendmmsg(105, {{{msg_name(0)=NULL, msg_iov(1)=[{"\10O\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"o)\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32085 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 97
+32085 connect(97, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32085 sendmmsg(97, {{{msg_name(0)=NULL, msg_iov(1)=[{"\375K\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"?!\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32087 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 104
+32087 connect(104, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32087 sendmmsg(104, {{{msg_name(0)=NULL, msg_iov(1)=[{"Z\177\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\202\210\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32100 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 106
+32100 connect(106, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32100 sendmmsg(106, {{{msg_name(0)=NULL, msg_iov(1)=[{"\22\337\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"rG\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32104 recvfrom(99, ")7\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32103 recvfrom(102,  <unfinished ...>
+32105 recvfrom(96,  <unfinished ...>
+32103 <... recvfrom resumed> "\251\323\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32105 <... recvfrom resumed> "+\255\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32104 recvfrom(99, "!\375\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32105 recvfrom(96, "\255\346\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32104 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 96
+32104 connect(96, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32105 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 99
+32103 recvfrom(102,  <unfinished ...>
+32105 connect(99, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32103 <... recvfrom resumed> "E2\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32101 recvfrom(98, "a\232\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32103 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+32092 recvfrom(100,  <unfinished ...>
+32103 <... socket resumed> )            = 102
+32092 <... recvfrom resumed> "}\220\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32103 connect(102, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32101 recvfrom(98, "\375\276\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32101 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+32092 recvfrom(100,  <unfinished ...>
+32101 <... socket resumed> )            = 98
+32092 <... recvfrom resumed> "\241\253\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32101 connect(98, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32092 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 100
+32092 connect(100, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32093 recvfrom(103, "=\f\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32102 recvfrom(105, "\10O\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32090 recvfrom(101,  <unfinished ...>
+32093 recvfrom(103,  <unfinished ...>
+32090 <... recvfrom resumed> "\203\347\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32093 <... recvfrom resumed> "\243\243\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32093 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 103
+32093 connect(103, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32090 recvfrom(101, "\37Y\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32090 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 101
+32090 connect(101, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32085 recvfrom(97, "\375K\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32087 recvfrom(104,  <unfinished ...>
+32102 recvfrom(105,  <unfinished ...>
+32087 <... recvfrom resumed> "Z\177\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32102 <... recvfrom resumed> "o)\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32087 recvfrom(104,  <unfinished ...>
+32102 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+32087 <... recvfrom resumed> "\202\210\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32102 <... socket resumed> )            = 105
+32102 connect(105, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32087 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 104
+32085 recvfrom(97,  <unfinished ...>
+32087 connect(104, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32085 <... recvfrom resumed> "?!\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32085 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 97
+32085 connect(97, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32100 recvfrom(106, "rG\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32100 recvfrom(106, "\22\337\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32100 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 106
+32100 connect(106, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32103 <... connect resumed> )           = 0
+32109 +++ exited with 0 +++
+32103 getsockname(102, {sa_family=AF_INET, sin_port=htons(56724), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32103 setsockopt(102, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32104 <... connect resumed> )           = 0
+32092 <... connect resumed> )           = 0
+32108 +++ exited with 0 +++
+32104 getsockname(96, {sa_family=AF_INET, sin_port=htons(56720), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32104 setsockopt(96, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32092 getsockname(100,  <unfinished ...>
+32110 +++ exited with 0 +++
+32092 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56728), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32092 setsockopt(100, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32090 <... connect resumed> )           = 0
+32090 getsockname(101,  <unfinished ...>
+32113 +++ exited with 0 +++
+32090 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56732), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32090 setsockopt(101, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32093 <... connect resumed> )           = 0
+32093 getsockname(103,  <unfinished ...>
+32114 +++ exited with 0 +++
+32093 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56730), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32093 setsockopt(103, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32105 <... connect resumed> )           = 0
+32105 getsockname(99,  <unfinished ...>
+32111 +++ exited with 0 +++
+32105 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56722), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32105 setsockopt(99, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32101 <... connect resumed> )           = 0
+32102 <... connect resumed> )           = 0
+32087 <... connect resumed> )           = 0
+32115 +++ exited with 0 +++
+32112 +++ exited with 0 +++
+32102 getsockname(105, {sa_family=AF_INET, sin_port=htons(56734), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32102 setsockopt(105, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32101 getsockname(98, {sa_family=AF_INET, sin_port=htons(56726), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32101 setsockopt(98, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32087 getsockname(104,  <unfinished ...>
+32117 +++ exited with 0 +++
+32087 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56736), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32087 setsockopt(104, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32085 <... connect resumed> )           = 0
+32116 +++ exited with 0 +++
+32085 getsockname(97, {sa_family=AF_INET, sin_port=htons(56738), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32085 setsockopt(97, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32100 <... connect resumed> )           = 0
+32100 getsockname(106,  <unfinished ...>
+32118 +++ exited with 0 +++
+32100 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56740), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32100 setsockopt(106, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32103 setsockopt(102, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32104 setsockopt(96, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32092 setsockopt(100, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32090 setsockopt(101, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32087 setsockopt(104, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32102 setsockopt(105, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32093 setsockopt(103, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32085 setsockopt(97, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32100 setsockopt(106, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32101 setsockopt(98, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32105 setsockopt(99, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32107 +++ exited with 0 +++
+32099 +++ exited with 0 +++
+32087 +++ exited with 0 +++
+32086 +++ exited with 0 +++
+32097 +++ exited with 0 +++
+32096 +++ exited with 0 +++
+32103 +++ exited with 0 +++
+32094 +++ exited with 0 +++
+32095 +++ exited with 0 +++
+32093 +++ exited with 0 +++
+32085 +++ exited with 0 +++
+32084 +++ exited with 0 +++
+32100 +++ exited with 0 +++
+32101 +++ exited with 0 +++
+32105 +++ exited with 0 +++
+32091 +++ exited with 0 +++
+32104 +++ exited with 0 +++
+32090 +++ exited with 0 +++
+32089 +++ exited with 0 +++
+32088 +++ exited with 0 +++
+32106 +++ exited with 0 +++
+32098 +++ exited with 0 +++
+32102 +++ exited with 0 +++
+32092 +++ exited with 0 +++
+32083 +++ exited with 0 +++
+32123 sendfile(117, 111, NULL, 4241)    = 4241
+32144 sendfile(118, 107, NULL, 679)     = 679
+32121 sendfile(112, 108, NULL, 95)      = 95
+32124 sendfile(122, 109, NULL, 1580)    = 1580
+32120 sendfile(120, 114, NULL, 957 <unfinished ...>
+32130 sendfile(121, 116, NULL, 112 <unfinished ...>
+32120 <... sendfile resumed> )          = 957
+32130 <... sendfile resumed> )          = 112
+32122 sendfile(117, 113, NULL, 208)     = 208
+32129 sendfile(112, 115, NULL, 118)     = 118
+32144 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 107
+32144 connect(107, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32144 sendmmsg(107, {{{msg_name(0)=NULL, msg_iov(1)=[{"\320I\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\321!\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32121 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 108
+32121 connect(108, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32121 sendmmsg(108, {{{msg_name(0)=NULL, msg_iov(1)=[{"~_\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"ZJ\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32124 socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 109
+32124 connect(109, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+32124 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 109
+32124 connect(109, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32124 sendmmsg(109, {{{msg_name(0)=NULL, msg_iov(1)=[{"\251\231\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"J\276\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32123 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 111
+32123 connect(111, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32123 sendmmsg(111, {{{msg_name(0)=NULL, msg_iov(1)=[{"\3c\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\vQ\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32120 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 110
+32120 connect(110, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32120 sendmmsg(110, {{{msg_name(0)=NULL, msg_iov(1)=[{"c,\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\224\342\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32130 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 113
+32130 connect(113, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32130 sendmmsg(113, {{{msg_name(0)=NULL, msg_iov(1)=[{"\235\222\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\0\256\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32122 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 112
+32122 connect(112, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32122 sendmmsg(112, {{{msg_name(0)=NULL, msg_iov(1)=[{"\332\333\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"DB\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32129 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 114
+32129 connect(114, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32129 sendmmsg(114, {{{msg_name(0)=NULL, msg_iov(1)=[{"\16\343\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"SN\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32144 recvfrom(107, "\320I\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32144 recvfrom(107, "\321!\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32121 recvfrom(108, "ZJ\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32144 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 107
+32144 connect(107, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32121 recvfrom(108, "~_\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32121 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 108
+32121 connect(108, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32124 recvfrom(109, "J\276\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32123 recvfrom(111, "\3c\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32124 recvfrom(109, "\251\231\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32124 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 109
+32124 connect(109, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32130 recvfrom(113, "\0\256\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32120 recvfrom(110,  <unfinished ...>
+32130 recvfrom(113,  <unfinished ...>
+32120 <... recvfrom resumed> "\224\342\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32130 <... recvfrom resumed> "\235\222\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32123 recvfrom(111, "\vQ\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32130 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+32120 recvfrom(110,  <unfinished ...>
+32130 <... socket resumed> )            = 111
+32130 connect(111, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32123 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP <unfinished ...>
+32120 <... recvfrom resumed> "c,\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32123 <... socket resumed> )            = 113
+32123 connect(113, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32120 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 110
+32120 connect(110, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32122 recvfrom(112, "DB\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32121 <... connect resumed> )           = 0
+32122 recvfrom(112, "\332\333\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32122 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 112
+32146 +++ exited with 0 +++
+32122 connect(112, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32121 getsockname(108, {sa_family=AF_INET, sin_port=htons(56744), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32121 setsockopt(108, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32129 recvfrom(114, "\16\343\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32129 recvfrom(114, "SN\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32129 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 114
+32129 connect(114, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16 <unfinished ...>
+32144 <... connect resumed> )           = 0
+32144 getsockname(107,  <unfinished ...>
+32145 +++ exited with 0 +++
+32144 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56742), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32144 setsockopt(107, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32124 <... connect resumed> )           = 0
+32147 +++ exited with 0 +++
+32124 getsockname(109, {sa_family=AF_INET, sin_port=htons(56746), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32124 setsockopt(109, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32130 <... connect resumed> )           = 0
+32130 getsockname(111,  <unfinished ...>
+32150 +++ exited with 0 +++
+32130 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56748), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32130 setsockopt(111, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32123 <... connect resumed> )           = 0
+32148 +++ exited with 0 +++
+32123 getsockname(113, {sa_family=AF_INET, sin_port=htons(56750), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32123 setsockopt(113, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32122 <... connect resumed> )           = 0
+32122 getsockname(112,  <unfinished ...>
+32151 +++ exited with 0 +++
+32122 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56754), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32122 setsockopt(112, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32120 <... connect resumed> )           = 0
+32120 getsockname(110,  <unfinished ...>
+32149 +++ exited with 0 +++
+32120 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56752), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32120 setsockopt(110, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32129 <... connect resumed> )           = 0
+32129 getsockname(114,  <unfinished ...>
+32152 +++ exited with 0 +++
+32129 <... getsockname resumed> {sa_family=AF_INET, sin_port=htons(56756), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32129 setsockopt(114, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32121 setsockopt(108, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32124 setsockopt(109, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32123 setsockopt(113, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32130 setsockopt(111, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32120 setsockopt(110, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32144 setsockopt(107, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32122 setsockopt(112, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32129 setsockopt(114, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32135 +++ exited with 0 +++
+32129 +++ exited with 0 +++
+32123 +++ exited with 0 +++
+32133 +++ exited with 0 +++
+32122 +++ exited with 0 +++
+32121 +++ exited with 0 +++
+32120 +++ exited with 0 +++
+32131 +++ exited with 0 +++
+32119 +++ exited with 0 +++
+32143 +++ exited with 0 +++
+32141 +++ exited with 0 +++
+32127 +++ exited with 0 +++
+32126 +++ exited with 0 +++
+32140 +++ exited with 0 +++
+32136 +++ exited with 0 +++
+32124 +++ exited with 0 +++
+32144 +++ exited with 0 +++
+32130 +++ exited with 0 +++
+32132 +++ exited with 0 +++
+32138 +++ exited with 0 +++
+32137 +++ exited with 0 +++
+32139 +++ exited with 0 +++
+32142 +++ exited with 0 +++
+32128 +++ exited with 0 +++
+32134 +++ exited with 0 +++
+32176 sendfile(116, 115, NULL, 1378)    = 1378
+32176 socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 115
+32176 connect(115, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+32176 sendmmsg(115, {{{msg_name(0)=NULL, msg_iov(1)=[{"\373\364\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"\307w\1\0\0\1\0\0\0\0\0\0\5index\10rubygems\3org\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+32176 recvfrom(115, "\373\364\201\200\0\1\0\3\0\0\0\0\5index\10rubygems\3org\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+32176 recvfrom(115, "\307w\201\200\0\1\0\2\0\1\0\0\5index\10rubygems\3org\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 185
+32176 socket(PF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 115
+32176 connect(115, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("151.101.24.70")}, 16) = 0
+32176 getsockname(115, {sa_family=AF_INET, sin_port=htons(56758), sin_addr=inet_addr("192.168.0.17")}, [16]) = 0
+32178 +++ exited with 0 +++
+32176 setsockopt(115, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32176 setsockopt(115, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+32175 +++ exited with 0 +++
+32161 +++ exited with 0 +++
+32165 +++ exited with 0 +++
+32166 +++ exited with 0 +++
+32173 +++ exited with 0 +++
+32172 +++ exited with 0 +++
+32171 +++ exited with 0 +++
+32174 +++ exited with 0 +++
+32158 +++ exited with 0 +++
+32153 +++ exited with 0 +++
+32168 +++ exited with 0 +++
+32163 +++ exited with 0 +++
+32177 +++ exited with 0 +++
+32167 +++ exited with 0 +++
+32176 +++ exited with 0 +++
+32160 +++ exited with 0 +++
+32159 +++ exited with 0 +++
+32164 +++ exited with 0 +++
+32157 +++ exited with 0 +++
+32156 +++ exited with 0 +++
+32155 +++ exited with 0 +++
+32170 +++ exited with 0 +++
+32154 +++ exited with 0 +++
+32169 +++ exited with 0 +++
+32162 +++ exited with 0 +++
+32258 +++ exited with 0 +++
+32272 +++ exited with 0 +++
+32255 +++ exited with 0 +++
+32274 +++ exited with 0 +++
+32276 +++ exited with 0 +++
+32254 +++ exited with 0 +++
+32277 +++ exited with 0 +++
+32266 +++ exited with 0 +++
+32269 +++ exited with 0 +++
+32265 +++ exited with 0 +++
+32268 +++ exited with 0 +++
+32262 +++ exited with 0 +++
+32264 +++ exited with 0 +++
+32263 +++ exited with 0 +++
+32259 +++ exited with 0 +++
+32275 +++ exited with 0 +++
+32270 +++ exited with 0 +++
+32278 +++ exited with 0 +++
+32261 +++ exited with 0 +++
+32257 +++ exited with 0 +++
+32271 +++ exited with 0 +++
+32273 +++ exited with 0 +++
+32260 +++ exited with 0 +++
+32256 +++ exited with 0 +++
+32267 +++ exited with 0 +++
+32292 +++ exited with 0 +++
+32300 +++ exited with 0 +++
+32301 +++ exited with 0 +++
+32299 +++ exited with 0 +++
+32297 +++ exited with 0 +++
+32295 +++ exited with 0 +++
+32296 +++ exited with 0 +++
+32298 +++ exited with 0 +++
+32294 +++ exited with 0 +++
+32303 +++ exited with 0 +++
+32293 +++ exited with 0 +++
+32289 +++ exited with 0 +++
+32290 +++ exited with 0 +++
+32288 +++ exited with 0 +++
+32287 +++ exited with 0 +++
+32285 +++ exited with 0 +++
+32284 +++ exited with 0 +++
+32283 +++ exited with 0 +++
+32282 +++ exited with 0 +++
+32280 +++ exited with 0 +++
+32291 +++ exited with 0 +++
+32302 +++ exited with 0 +++
+32286 +++ exited with 0 +++
+32281 +++ exited with 0 +++
+32279 +++ exited with 0 +++
+32322 +++ exited with 0 +++
+32316 +++ exited with 0 +++
+32310 +++ exited with 0 +++
+32308 +++ exited with 0 +++
+32306 +++ exited with 0 +++
+32314 +++ exited with 0 +++
+32305 +++ exited with 0 +++
+32323 +++ exited with 0 +++
+32324 +++ exited with 0 +++
+32325 +++ exited with 0 +++
+32304 +++ exited with 0 +++
+32319 +++ exited with 0 +++
+32321 +++ exited with 0 +++
+32315 +++ exited with 0 +++
+32327 +++ exited with 0 +++
+32328 +++ exited with 0 +++
+32326 +++ exited with 0 +++
+32309 +++ exited with 0 +++
+32311 +++ exited with 0 +++
+32313 +++ exited with 0 +++
+32318 +++ exited with 0 +++
+32307 +++ exited with 0 +++
+32312 +++ exited with 0 +++
+32317 +++ exited with 0 +++
+32320 +++ exited with 0 +++
+32339 +++ exited with 0 +++
+32336 +++ exited with 0 +++
+32333 +++ exited with 0 +++
+32350 +++ exited with 0 +++
+32349 +++ exited with 0 +++
+32351 +++ exited with 0 +++
+32348 +++ exited with 0 +++
+32353 +++ exited with 0 +++
+32352 +++ exited with 0 +++
+32347 +++ exited with 0 +++
+32337 +++ exited with 0 +++
+32345 +++ exited with 0 +++
+32343 +++ exited with 0 +++
+32334 +++ exited with 0 +++
+32329 +++ exited with 0 +++
+32340 +++ exited with 0 +++
+32335 +++ exited with 0 +++
+32332 +++ exited with 0 +++
+32338 +++ exited with 0 +++
+32341 +++ exited with 0 +++
+32346 +++ exited with 0 +++
+32344 +++ exited with 0 +++
+32331 +++ exited with 0 +++
+32342 +++ exited with 0 +++
+32330 +++ exited with 0 +++
+32354 +++ exited with 0 +++
+31309 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32354, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+32358 +++ exited with 0 +++
+32357 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32358, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+32357 +++ exited with 0 +++
+32356 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32357, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+32356 +++ exited with 0 +++
+32355 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32356, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+32355 +++ exited with 0 +++
+31289 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32355, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+32363 +++ exited with 0 +++
+32360 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32363, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+32364 +++ exited with 0 +++
+32360 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32364, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+32362 +++ exited with 0 +++
+32361 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32362, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+32361 +++ exited with 0 +++
+32360 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32361, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+32365 +++ exited with 0 +++
+32360 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32365, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+32360 +++ exited with 0 +++
+32359 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32360, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+32359 +++ exited with 0 +++
+31289 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32359, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+32366 +++ exited with 0 +++
+31289 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32366, si_uid=1000, si_status=0, si_utime=0, si_stime=2} ---
+32367 +++ exited with 0 +++
+31289 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32367, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+32371 +++ exited with 0 +++
+32370 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32371, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+32370 +++ exited with 0 +++
+32369 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32370, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+32369 +++ exited with 0 +++
+32368 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=32369, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+32368 +++ exited with 0 +++
+31309 +++ exited with 0 +++
+31289 +++ exited with 0 +++
