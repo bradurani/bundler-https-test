@@ -1,0 +1,22 @@
+GIT
+  remote: git://github.com/bradurani/hamster-matrix.git
+  revision: ce424d295d2cf9fd6f5b1bdd3c7ef5808938b27b
+  specs:
+    hamster-matrix (2.0.0)
+      hamster (>= 1.0.0, < 3.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (0.9.2)
+    hamster (2.0.0)
+      concurrent-ruby (~> 0.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hamster-matrix!
+
+BUNDLED WITH
+   1.12.5
