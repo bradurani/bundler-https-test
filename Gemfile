@@ -2,4 +2,4 @@
 
 source 'https://rubygems.org'
 
-gem 'handcuffs', github: 'procore/handcuffs'
+gem 'emoji', github: 'wpeterson/emoji'
